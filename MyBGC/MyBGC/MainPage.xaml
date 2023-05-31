@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyBGC.MainPage"
+             xmlns:pages="clr-namespace:MyBGC;assembly=MyBGC"
+             BackgroundColor="DodgerBlue"
+            >
+
+    <Shell.FlyoutHeader>
+        <StackLayout BackgroundColor="White" Padding="10">
+            <Label Text="Мой БГК" FontSize="20" HorizontalTextAlignment="Center" TextColor="DodgerBlue"/>
+            <Image HeightRequest="100" Source="https://i.imgur.com/i0DFAVG.jpg" />
+        </StackLayout>
+    </Shell.FlyoutHeader>
+
+        <FlyoutItem Title="Главная">
+        <ShellContent Title="Главная" ContentTemplate="{DataTemplate pages:Main}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Приемная компания">
+        <ShellContent Title="Приемная компания" ContentTemplate="{DataTemplate pages:Company}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Специальности">
+        <ShellContent Title="Специальности" ContentTemplate="{DataTemplate pages:Professions}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Расписание занятий/звонков">
+        <Tab Title="Занятия">
+        <ShellContent Title="Расписания занятий" ContentTemplate="{DataTemplate pages:ClassShedule}"/>
+        </Tab>
+        <Tab Title="Звонки">
+            <ShellContent Title="Расписание звонков" ContentTemplate="{DataTemplate pages:RingShedule}"/>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Заказ справки">
+        <ShellContent Title="Заказ справки учащегося" ContentTemplate="{DataTemplate pages:OrderHelp}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Запись на ДПО и ПО">
+        <ShellContent Title="Запись на обучение по программам ДПО и ПО" ContentTemplate="{DataTemplate pages:RecordDPO}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Обращения граждан">
+        <ShellContent Title="Обращение граждан" ContentTemplate="{DataTemplate pages:Appeals}"/>
+    </FlyoutItem>
+
+</Shell>

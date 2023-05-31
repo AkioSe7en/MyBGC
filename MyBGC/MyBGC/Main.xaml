@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyBGC.Main"
+             Title="Основная информация"
+             x:Name="ContentPage"
+             >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="greenColor">#004D40</Color>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#004D40" />
+                <Setter Property="BackgroundColor" Value="#80CBC4" />
+                <Setter Property="FontSize" Value="Large" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="stack">
+                <Label 
+                    Text='Краевое государственное бюджетное профессиональное образовательное учреждение «Бийский государственный колледж» - многопрофильная образовательная организация, удовлетворяющая запросам регионального рынка труда в профессиональных кадрах.
+                            Бийский государственный колледж по праву считается образовательной организацией, вносящей весомый вклад в социально-экономическое развитие Алтайского края.
+                            В 2016 году он включен в национальный реестр «Ведущие образовательные учреждения России». По итогам Национального конкурса "Лучшие колледжи РФ - 2021" Бийский государственный колледж стал обладателем диплома лауреата, а так же удостоен медали "Лучшие колледжи РФ". Директор колледжа, Елена Валерьевна Метель, стала лауреатом конкурса и награждена Почетной грамотой "Директор года - 2021".'
+                       
+                    />
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
