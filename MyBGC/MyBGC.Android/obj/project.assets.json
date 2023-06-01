@@ -133,6 +133,39 @@
           }
         }
       },
+      "TDLib/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TDLib.Api": "1.8.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.AndroidX.Activity/1.2.4.1": {
         "type": "package",
         "dependencies": {
@@ -1903,6 +1936,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
+          "TDLib": "1.8.12",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -2133,6 +2167,32 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "TDLib/1.8.12": {
+      "sha512": "/fRpb8/FhOCcCOAab4GkYchjiw7UeYqFs0Foc4ZZWm5nb5B/Es4g1BAYlYo2sdeeFnau+krQgACcWnNG1OeLdQ==",
+      "type": "package",
+      "path": "tdlib/1.8.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TdLib.dll",
+        "lib/netstandard2.0/TdLib.xml",
+        "tdlib.1.8.12.nupkg.sha512",
+        "tdlib.nuspec"
+      ]
+    },
+    "TDLib.Api/1.8.12": {
+      "sha512": "sNA6YpKOxB8j/TgPpkj8ywdTg1ko+VIFvTDHmKeIYz3z1T5smxWOkl/NCA3mifj5TVm8JQnTT3jfXhqmMS75pA==",
+      "type": "package",
+      "path": "tdlib.api/1.8.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TdLib.Api.dll",
+        "lib/netstandard2.0/TdLib.Api.xml",
+        "tdlib.api.1.8.12.nupkg.sha512",
+        "tdlib.api.nuspec"
       ]
     },
     "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -3747,14 +3807,6 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
-          },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

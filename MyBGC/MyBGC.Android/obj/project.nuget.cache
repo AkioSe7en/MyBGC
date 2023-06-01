@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WSZLOlWggJvR+Pg++iDMGIJU87i9/UsxOn71/8QsUHHmvjid+NV5gctbiSMjc6FGOeBYOoWj8LRGW8iW7vg88A==",
+  "dgSpecHash": "duEtegnc2PmIUpnD9Wf5zFOO5Iuu+uJ7sVkPwyEULMNp21uzf6ajLH8gNv7a1eHSwzG83s39qwz43rf+5ZoyjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\akios\\Desktop\\Учеба\\Диплом\\MyBGC\\MyBGC\\MyBGC.Android\\MyBGC.Android.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,8 @@
     "C:\\Users\\akios\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\akios\\.nuget\\packages\\tdlib\\1.8.12\\tdlib.1.8.12.nupkg.sha512",
+    "C:\\Users\\akios\\.nuget\\packages\\tdlib.api\\1.8.12\\tdlib.api.1.8.12.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",

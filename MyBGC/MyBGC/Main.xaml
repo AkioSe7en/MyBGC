@@ -7,25 +7,86 @@
              >
 
     <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="greenColor">#004D40</Color>
-            <Style x:Key="labelStyle" TargetType="Label">
-                <Setter Property="TextColor" Value="#004D40" />
-                <Setter Property="BackgroundColor" Value="#80CBC4" />
-                <Setter Property="FontSize" Value="Large" />
-            </Style>
-        </ResourceDictionary>
+        <StyleSheet Source="Styles/styles.css"/>
     </ContentPage.Resources>
 
     <ContentPage.Content>
         <ScrollView>
             <StackLayout x:Name="stack">
-                <Label 
-                    Text='Краевое государственное бюджетное профессиональное образовательное учреждение «Бийский государственный колледж» - многопрофильная образовательная организация, удовлетворяющая запросам регионального рынка труда в профессиональных кадрах.
-                            Бийский государственный колледж по праву считается образовательной организацией, вносящей весомый вклад в социально-экономическое развитие Алтайского края.
-                            В 2016 году он включен в национальный реестр «Ведущие образовательные учреждения России». По итогам Национального конкурса "Лучшие колледжи РФ - 2021" Бийский государственный колледж стал обладателем диплома лауреата, а так же удостоен медали "Лучшие колледжи РФ". Директор колледжа, Елена Валерьевна Метель, стала лауреатом конкурса и награждена Почетной грамотой "Директор года - 2021".'
-                       
-                    />
+                <Image HeightRequest="100" Source="https://i.imgur.com/i0DFAVG.jpg" />
+                <Label Text='Краевое государственное бюджетное профессиональное образовательное учреждение «Бийский государственный колледж» - многопрофильная образовательная организация, удовлетворяющая запросам регионального рынка труда в профессиональных кадрах.'/>
+                <Label Text='Бийский государственный колледж по праву считается образовательной организацией, вносящей весомый вклад в социально-экономическое развитие Алтайского края.'/>
+                <Label Text='В 2016 году он включен в национальный реестр «Ведущие образовательные учреждения России». По итогам Национального конкурса "Лучшие колледжи РФ - 2021" Бийский государственный колледж стал обладателем диплома лауреата, а так же удостоен медали "Лучшие колледжи РФ". Директор колледжа, Елена Валерьевна Метель, стала лауреатом конкурса и награждена Почетной грамотой "Директор года - 2021".'/>
+                <Label Text="Дата создания образовательной организации: 12.08.1959г."/>
+                <Label Text="Учредитель образовательной организации:"/>
+                <Label Text="Наименование учредителя Министерство образования и науки Алтайского края."/>
+                <Label Text="Руководитель учредителя образовательной организации: Светлана Павловна Говорухина."/>
+                <Label Text="Должность:  временно исполняющий обязанности министра образования и науки Алтайского края."/>
+                <Label Text="Юридический адрес учредителя: 656043, Алтайский край, г. Барнаул, ул. Ползунова, д. 36."/>
+                <Label Text="Контактный телефон учредителя: 8(3852) 63-57-26"/>
+                <Label Text="Адрес сайта учредителя в сети «Интернет»:  http://www.educaltai.ru"/>
+                <Label Text="Адрес электронной почты учредителя: info@22edu.ru"/>
+                <Label/>
+                <Label Text="Фактическое нахождение учебных корпусов образовательной организации:"/>
+                <Label x:Name="l1">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="1 учебный корпус: " />
+                            <Span Text="659305, Алтайский край, г. Бийск, пер. В.Мартьянова, д. 42"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="corp1"/>
+                            </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label x:Name="l2">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="2 учебный корпус: " />
+                            <Span Text="659315, Алтайский край, г. Бийск, ул. 8 марта, д. 16"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="corp2"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+                <Label x:Name="l3">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="3 учебный корпус: " />
+                            <Span Text="659300, Алтайский край, г. Бийск, пер. Мопровский, д. 27"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="corp3"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+                <Label x:Name="l4">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="4 учебный корпус: " />
+                            <Span Text="659316, Алтайский край, г. Бийск ул. Социалистическая, д. 30"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="corp4"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+                <Label x:Name="l5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Центр аграрного образования: " />
+                            <Span Text="659363, Алтайский край, с. Первомайское,  ул. Октябрьская, д. 22з"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="corp5"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
                 
             </StackLayout>
         </ScrollView>

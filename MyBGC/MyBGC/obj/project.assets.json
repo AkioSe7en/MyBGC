@@ -213,6 +213,39 @@
           }
         }
       },
+      "TDLib/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TDLib.Api": "1.8.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -638,6 +671,32 @@
         "version.txt"
       ]
     },
+    "TDLib/1.8.12": {
+      "sha512": "/fRpb8/FhOCcCOAab4GkYchjiw7UeYqFs0Foc4ZZWm5nb5B/Es4g1BAYlYo2sdeeFnau+krQgACcWnNG1OeLdQ==",
+      "type": "package",
+      "path": "tdlib/1.8.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TdLib.dll",
+        "lib/netstandard2.0/TdLib.xml",
+        "tdlib.1.8.12.nupkg.sha512",
+        "tdlib.nuspec"
+      ]
+    },
+    "TDLib.Api/1.8.12": {
+      "sha512": "sNA6YpKOxB8j/TgPpkj8ywdTg1ko+VIFvTDHmKeIYz3z1T5smxWOkl/NCA3mifj5TVm8JQnTT3jfXhqmMS75pA==",
+      "type": "package",
+      "path": "tdlib.api/1.8.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TdLib.Api.dll",
+        "lib/netstandard2.0/TdLib.Api.xml",
+        "tdlib.api.1.8.12.nupkg.sha512",
+        "tdlib.api.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.7.0": {
       "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
       "type": "package",
@@ -901,6 +960,7 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 13.0.3",
+      "TDLib >= 1.8.12",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196",
       "sqlite-net-pcl >= 1.8.116"
@@ -960,6 +1020,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "TDLib": {
+            "target": "Package",
+            "version": "[1.8.12, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

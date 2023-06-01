@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <ApplicationIcon>logo_front.ico</ApplicationIcon>
+    <Authors>Timofey Osokin</Authors>
+    <Company>BGC</Company>
+    <Description>Мобильное приложение Бийского государственного колледжа</Description>
+    <PackageProjectUrl>https://www.bgtc.su/</PackageProjectUrl>
+    <PackageIcon>logo_front.png</PackageIcon>
+    <RepositoryUrl>https://github.com/AkioSe7en/MyBGC</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -19,8 +27,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="logo_front.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\MyBGC.Android\Resources\drawable\logo_front.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="TDLib" Version="1.8.12" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
@@ -36,6 +56,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Main.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="News.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="OrderHelp.xaml">

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MV4xcqJ1oYvyuntuHnE8R1rU6Lt/BxbnJvCoRZoREKkglA33WvtPlIYDf0DYsYEZ9lbqeMVoikQWK4GFWvzHYg==",
+  "dgSpecHash": "GpUDhTHODuOxKkq3RF/ENJVymWqCSwkOCBPC9HsnwXL/2bnSuL2rEZt5hJGanHag6Bk8Y1JDJgtBEkUrecTtCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\akios\\Desktop\\Учеба\\Диплом\\MyBGC\\MyBGC\\MyBGC\\MyBGC.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,8 @@
     "C:\\Users\\akios\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\akios\\.nuget\\packages\\tdlib\\1.8.12\\tdlib.1.8.12.nupkg.sha512",
+    "C:\\Users\\akios\\.nuget\\packages\\tdlib.api\\1.8.12\\tdlib.api.1.8.12.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

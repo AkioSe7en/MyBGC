@@ -760,6 +760,39 @@
           }
         }
       },
+      "TDLib/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TDLib.Api": "1.8.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -844,6 +877,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
+          "TDLib": "1.8.12",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -1727,6 +1761,39 @@
           }
         }
       },
+      "TDLib/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TDLib.Api": "1.8.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -1800,6 +1867,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
+          "TDLib": "1.8.12",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -2684,6 +2752,39 @@
           }
         }
       },
+      "TDLib/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TDLib.Api": "1.8.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -2757,6 +2858,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
+          "TDLib": "1.8.12",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -3641,6 +3743,39 @@
           }
         }
       },
+      "TDLib/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TDLib.Api": "1.8.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -3711,6 +3846,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
+          "TDLib": "1.8.12",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -4594,6 +4730,39 @@
           }
         }
       },
+      "TDLib/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TDLib.Api": "1.8.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -4667,6 +4836,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
+          "TDLib": "1.8.12",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -5551,6 +5721,39 @@
           }
         }
       },
+      "TDLib/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TDLib.Api": "1.8.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -5624,6 +5827,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
+          "TDLib": "1.8.12",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -6507,6 +6711,39 @@
           }
         }
       },
+      "TDLib/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TDLib.Api": "1.8.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -6580,6 +6817,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
+          "TDLib": "1.8.12",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -7464,6 +7702,39 @@
           }
         }
       },
+      "TDLib/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "TDLib.Api": "1.8.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -7537,6 +7808,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
+          "TDLib": "1.8.12",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -12183,6 +12455,32 @@
         "version.txt"
       ]
     },
+    "TDLib/1.8.12": {
+      "sha512": "/fRpb8/FhOCcCOAab4GkYchjiw7UeYqFs0Foc4ZZWm5nb5B/Es4g1BAYlYo2sdeeFnau+krQgACcWnNG1OeLdQ==",
+      "type": "package",
+      "path": "tdlib/1.8.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TdLib.dll",
+        "lib/netstandard2.0/TdLib.xml",
+        "tdlib.1.8.12.nupkg.sha512",
+        "tdlib.nuspec"
+      ]
+    },
+    "TDLib.Api/1.8.12": {
+      "sha512": "sNA6YpKOxB8j/TgPpkj8ywdTg1ko+VIFvTDHmKeIYz3z1T5smxWOkl/NCA3mifj5TVm8JQnTT3jfXhqmMS75pA==",
+      "type": "package",
+      "path": "tdlib.api/1.8.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TdLib.Api.dll",
+        "lib/netstandard2.0/TdLib.Api.xml",
+        "tdlib.api.1.8.12.nupkg.sha512",
+        "tdlib.api.nuspec"
+      ]
+    },
     "Win2D.uwp/1.20.0": {
       "sha512": "sFyNT2EiV6vmEFMrkiJdSolaKNyOyk+kfjgvXN8XqUhdEPqBd2zPrFdl7SojNHQGm2Br6JLIBOdrj9fB1Qy4GA==",
       "type": "package",
@@ -12478,7 +12776,7 @@
   "packageFolders": {
     "C:\\Users\\akios\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -12492,7 +12790,7 @@
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\akios\\AppData\\Roaming\\NuGet\\NuGet.Config",
