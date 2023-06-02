@@ -21,6 +21,8 @@ output.json
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
+bin/
+MyBGC.Android/obj
 
 # Keystore files
 *.jks
