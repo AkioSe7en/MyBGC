@@ -1,0 +1,11 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.Drawing;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using Xamarin.Essentials;
+global using Xamarin.Forms;
+global using Xamarin.Forms.Xaml;
+global using CodeHollow.FeedReader;
+global using Color = Xamarin.Forms.Color;

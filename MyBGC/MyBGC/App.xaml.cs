@@ -1,8 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-
-namespace MyBGC
+﻿namespace MyBGC
 {
     public partial class App : Application
     {

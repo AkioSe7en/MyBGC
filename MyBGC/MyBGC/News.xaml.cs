@@ -1,19 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-using CodeHollow.FeedReader;
-using Newtonsoft.Json.Linq;
-using TdLib;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-using static TdLib.TdApi;
-using TdLib.Bindings;
-using Xamarin.Essentials;
-
-namespace MyBGC
+﻿namespace MyBGC
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class News : ContentPage

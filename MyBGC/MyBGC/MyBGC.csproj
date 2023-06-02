@@ -11,6 +11,7 @@
     <PackageIcon>logo_front.png</PackageIcon>
     <RepositoryUrl>https://github.com/AkioSe7en/MyBGC</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <LangVersion>11</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
