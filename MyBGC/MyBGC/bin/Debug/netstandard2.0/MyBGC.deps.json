@@ -9,14 +9,27 @@
     ".NETStandard,Version=v2.0/": {
       "MyBGC/1.0.0": {
         "dependencies": {
+          "CodeHollow.FeedReader": "1.2.6",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.3",
+          "TDLib": "1.8.12",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
         },
         "runtime": {
           "MyBGC.dll": {}
+        }
+      },
+      "CodeHollow.FeedReader/1.2.6": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/CodeHollow.FeedReader.dll": {
+            "assemblyVersion": "1.2.6.0",
+            "fileVersion": "1.2.6.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -117,6 +130,29 @@
           }
         }
       },
+      "TDLib/1.8.12": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "TDLib.Api": "1.8.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.dll": {
+            "assemblyVersion": "1.8.12.0",
+            "fileVersion": "1.8.12.0"
+          }
+        }
+      },
+      "TDLib.Api/1.8.12": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/TdLib.Api.dll": {
+            "assemblyVersion": "1.8.12.0",
+            "fileVersion": "1.8.12.0"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -151,6 +187,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CodeHollow.FeedReader/1.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KpnP1zlX5zk58PUrREYUXC/7gk8ljjS8mkPfmFeuofaJlHJm62990cZdWLiMBuwWhV/HA6NAu9Ck5uM7GOJl0A==",
+      "path": "codehollow.feedreader/1.2.6",
+      "hashPath": "codehollow.feedreader.1.2.6.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -235,6 +278,20 @@
       "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
       "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "TDLib/1.8.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/fRpb8/FhOCcCOAab4GkYchjiw7UeYqFs0Foc4ZZWm5nb5B/Es4g1BAYlYo2sdeeFnau+krQgACcWnNG1OeLdQ==",
+      "path": "tdlib/1.8.12",
+      "hashPath": "tdlib.1.8.12.nupkg.sha512"
+    },
+    "TDLib.Api/1.8.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sNA6YpKOxB8j/TgPpkj8ywdTg1ko+VIFvTDHmKeIYz3z1T5smxWOkl/NCA3mifj5TVm8JQnTT3jfXhqmMS75pA==",
+      "path": "tdlib.api/1.8.12",
+      "hashPath": "tdlib.api.1.8.12.nupkg.sha512"
     },
     "Xamarin.Essentials/1.7.0": {
       "type": "package",

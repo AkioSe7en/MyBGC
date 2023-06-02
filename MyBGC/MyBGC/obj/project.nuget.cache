@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GpUDhTHODuOxKkq3RF/ENJVymWqCSwkOCBPC9HsnwXL/2bnSuL2rEZt5hJGanHag6Bk8Y1JDJgtBEkUrecTtCw==",
+  "dgSpecHash": "/4QCBDy84Vb5JwnXt79Gkf/N9+GUd5f5KMr3mMOoPn9X9J8/NbmggUy4NJEyq+N/BNWdnT9x6bOeesoqaMsX6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\akios\\Desktop\\Учеба\\Диплом\\MyBGC\\MyBGC\\MyBGC\\MyBGC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\akios\\.nuget\\packages\\codehollow.feedreader\\1.2.6\\codehollow.feedreader.1.2.6.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3P7T/x8B9iDA1C2Nmc+tbhfe6FwVeNnHAyWX4Aa2D1BSR9E9O8fyinXZTq/mTdMnNZM5EUQqT8uNsERRJkp18w==",
+  "dgSpecHash": "jqke25kIjMZKUHNdx8LgGpqFRpxQJ+R6UH27jibAtl0W2K1LpGxCVZAR2ffhgjPpg0SBlyyfxs0yqAL+M7ERqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\akios\\Desktop\\Учеба\\Диплом\\MyBGC\\MyBGC\\MyBGC.UWP\\MyBGC.UWP.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\akios\\.nuget\\packages\\codehollow.feedreader\\1.2.6\\codehollow.feedreader.1.2.6.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",

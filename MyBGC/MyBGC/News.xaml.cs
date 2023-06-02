@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using CodeHollow.FeedReader;
+using Newtonsoft.Json.Linq;
 using TdLib;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using static TdLib.TdApi;
 using TdLib.Bindings;
+using Xamarin.Essentials;
 
 namespace MyBGC
 {
@@ -17,7 +21,54 @@ namespace MyBGC
         public News()
         {
             InitializeComponent();
+           
+            RSSNews();
+           }
+
+        async void RSSNews()
+        {
+            var feed = await FeedReader.ReadAsync("https://rss.app/feeds/02bfsW31UPrZPeSh.xml");
             
+            foreach(FeedItem item in feed.Items)
+            { 
+                Grid grid = new Grid{RowDefinitions =
+                {
+                    new RowDefinition{Height = GridLength.Auto},
+                    new RowDefinition{Height = GridLength.Auto},
+                    new RowDefinition{Height = GridLength.Auto},
+                }};
+                grid.Margin = 10;
+                int StartImgSrc = item.Description.IndexOf("img src=")+9;
+                int EndImgSrc = item.Description.IndexOf("\u0022", StartImgSrc+1);
+                string SourceImg = item.Description.Substring(StartImgSrc, EndImgSrc - StartImgSrc);
+                grid.Children.Add(new Image{Source = SourceImg, Aspect = Aspect.AspectFit, HorizontalOptions = LayoutOptions.Fill, VerticalOptions = LayoutOptions.Fill}, 0, 0);
+                
+                int StartDesc = item.Description.IndexOf("<div>", EndImgSrc)+5;
+                int EndDesc = item.Description.IndexOf("</div>");
+                string Desc = item.Description.Substring(StartDesc, EndDesc - StartDesc);
+                
+                Label DescLabel = new Label {};
+                var z = new FormattedString();
+                z.Spans.Add(new Span{Text = Desc});
+                
+                grid.Children.Add(new Label {Text = item.Title, BackgroundColor = Color.FromHex("daedf4"), Padding = 5, TextColor = Color.Black, HorizontalTextAlignment = TextAlignment.Center, FontAttributes = FontAttributes.Bold}, 0, 1);
+                //grid.Children.Add(new Label {Text = Desc, BackgroundColor = Color.FromHex("daedf4"), Padding = 5, TextColor = Color.Black}, 0, 2);
+               
+                string dots = Desc.Substring(Desc.Length - 4, 4);
+
+                if (dots == "....")
+                {
+                    var span = new Span{Text = "(Читать далее на сайте БГК)", TextColor=Color.Blue, TextDecorations=TextDecorations.Underline};
+                    span.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(async () => await Browser.OpenAsync(new Uri(item.Link), BrowserLaunchMode.SystemPreferred)) });
+                    z.Spans.Add(span);   
+                }
+                grid.Children.Add(new Label {FormattedText = z, BackgroundColor = Color.FromHex("daedf4"), Padding = 5, TextColor = Color.Black}, 0, 2);
+                
+                StackLayout back = new StackLayout {BackgroundColor = Color.CornflowerBlue, Margin = new Thickness(15,15,15,5)};
+                NewsFeed.Children.Add(back);
+                back.Children.Add(grid);
+                back.Children.Add(new Label{Text =$"{item.PublishingDate:D}", Margin = new Thickness(0,0,15,15), HorizontalTextAlignment = TextAlignment.End, TextColor = Color.Black});
+            }
         }
     }
 }

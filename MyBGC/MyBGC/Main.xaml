@@ -18,8 +18,8 @@
                 <Label Text='Бийский государственный колледж по праву считается образовательной организацией, вносящей весомый вклад в социально-экономическое развитие Алтайского края.'/>
                 <Label Text='В 2016 году он включен в национальный реестр «Ведущие образовательные учреждения России». По итогам Национального конкурса "Лучшие колледжи РФ - 2021" Бийский государственный колледж стал обладателем диплома лауреата, а так же удостоен медали "Лучшие колледжи РФ". Директор колледжа, Елена Валерьевна Метель, стала лауреатом конкурса и награждена Почетной грамотой "Директор года - 2021".'/>
                 <Label Text="Дата создания образовательной организации: 12.08.1959г."/>
-                <Label Text="Учредитель образовательной организации:"/>
-                <Label Text="Наименование учредителя Министерство образования и науки Алтайского края."/>
+                <Label FontAttributes="Bold" Text="Учредитель образовательной организации:"/>
+                <Label Text="Наименование учредителя: Министерство образования и науки Алтайского края."/>
                 <Label Text="Руководитель учредителя образовательной организации: Светлана Павловна Говорухина."/>
                 <Label Text="Должность:  временно исполняющий обязанности министра образования и науки Алтайского края."/>
                 <Label Text="Юридический адрес учредителя: 656043, Алтайский край, г. Барнаул, ул. Ползунова, д. 36."/>
@@ -87,6 +87,56 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
+                <Label/>
+                
+                
+                <Label Text="Контактные данные:"/>
+                <Label x:Name="PhoneOrg">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Телефон образовательной организации: " />
+                            <Span Text="8(3854)43-62-10"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="phoneOrg"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label x:Name="EmailOrg">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Адрес электронной почты образовательной организации: " />
+                            <Span Text="bgtc@22edu.ru"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="emailOrg"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+                <Label x:Name="SiteOrg">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Сайт образовательной организации: " />
+                            <Span Text="www.bgtc.su"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="siteOrg"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="{Binding }"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    
+                    <ImageButton Grid.Column="0" HeightRequest="100" WidthRequest="100" x:Name="butVK" BackgroundColor="White" Aspect="AspectFit" Clicked="ButVK_OnClicked" Source="https://pngicon.ru/file/uploads/vk.png"></ImageButton>
+                    <ImageButton Grid.Column="1" HeightRequest="100" WidthRequest="100" x:Name="butTG" BackgroundColor="White" Aspect="AspectFit" Clicked="ButTG_OnClicked" Source="https://img.icons8.com/color/512/telegram-app--v1.png"></ImageButton>
+                    <ImageButton Grid.Column="2" HeightRequest="100" WidthRequest="100" x:Name="butOK" BackgroundColor="White" Aspect="AspectFit" Clicked="ButOK_OnClicked" Source="https://papik.pro/uploads/posts/2021-11/thumbs/1636125739_6-papik-pro-p-logotip-odnoklassniki-foto-7.png"></ImageButton>
+                </Grid>
                 
             </StackLayout>
         </ScrollView>

@@ -22,3 +22,4 @@ C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC\obj\Debug\netst
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC\obj\Debug\netstandard2.0\RecordDPO.xaml.g.cs
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC\obj\Debug\netstandard2.0\RingShedule.xaml.g.cs
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC\obj\Debug\netstandard2.0\Styles\styles.css.g.cs
+C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC\obj\Debug\netstandard2.0\News.xaml.g.cs
