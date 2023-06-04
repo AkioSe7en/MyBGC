@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyBGC.OrderHelpWarning">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="После заполнения корректными данными полей формы, справка в электронном виде будет направлена на вашу электронную почту в течении двух рабочих дней, забрать бумажный вариант справки можно будет через три рабочих дня после обращения в кабинете 219 первого корпуса по адресу " />
+                        <Span Text="659305, Алтайский край, г. Бийск, пер. В.Мартьянова, д. 42"
+                              TextColor="Blue"
+                              TextDecorations="Underline"
+                              x:Name="corp1"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Grid>
+                <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox Grid.Column="0" x:Name="CheckRule"></CheckBox>
+                <Label Grid.Column="1" x:Name="CheckRuleLabel" Text="Нажимая на этот флажок я подтверждаю ознакомленность с правилами получения справки и соглашаюсь с политикой конфиденциальности и обработки персональных данных."></Label>
+            </Grid>
+            
+            <Button x:Name="Ok" Text="Я соглашаюсь" Clicked="Ok_OnClicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

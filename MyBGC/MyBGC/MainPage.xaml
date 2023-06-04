@@ -40,7 +40,7 @@
     </FlyoutItem>
 
     <FlyoutItem Title="Заказ справки">
-        <ShellContent x:Name="Order" Title="Заказ справки учащегося" ContentTemplate="{DataTemplate pages:OrderHelp}"/>
+        <ShellContent x:Name="Order" Title="Заказ справки учащегося" ContentTemplate="{DataTemplate pages:OrderHelpWarning}"/>
     </FlyoutItem>
 
     <FlyoutItem Title="Запись на ДПО и ПО">

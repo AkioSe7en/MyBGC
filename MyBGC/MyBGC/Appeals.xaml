@@ -4,10 +4,34 @@
              x:Class="MyBGC.Appeals"
              Title="Обращения граждан">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Обращение граждан"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Text="ФИО полностью"/>
+            <Entry Grid.Row="1" x:Name="FIO" ReturnType="Next"  Placeholder="Введите ФИО"></Entry>
+            <Label Grid.Row="2" Text="Адрес проживания"/>
+            <Entry Grid.Row="3" x:Name="Address" ReturnType="Next"  Placeholder="Введите адрес"></Entry>
+            <Label Grid.Row="4" Text="Номер телефона"/>
+            <Entry Grid.Row="5" x:Name="Number" ReturnType="Next"  Placeholder="Введите номер телефона" Keyboard="Telephone"></Entry>
+            <Label Grid.Row="6" Text="Тема обращения"/>
+            <Entry Grid.Row="7" x:Name="Subject" ReturnType="Next" Placeholder="Введите тему"></Entry>
+            <Label Grid.Row="8" Text="Текст сообщения"/>
+            <Editor Grid.Row="9" x:Name="Body" Placeholder="Введите текст" MaxLength="462"></Editor>
+            <Button Grid.Row="10" x:Name="Send" Text="Отправить по email" Clicked="Send_OnClicked" BackgroundColor="#08387F" TextColor="White"></Button>
+            </Grid>
     </ContentPage.Content>
 </ContentPage>
