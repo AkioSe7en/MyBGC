@@ -4,6 +4,7 @@
              x:Class="MyBGC.OrderHelp"
              Title="Заказ справки">
     <ContentPage.Content>
+      <ScrollView>
         <Grid Margin="20">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
@@ -68,5 +69,6 @@
            
             <Button Grid.Row="12" x:Name="Send" Clicked="Send_OnClicked" VerticalOptions="EndAndExpand" Text="Отправить по email" BackgroundColor="#08387F" TextColor="White"></Button>
         </Grid>
+      </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -6,9 +6,6 @@
 		public Main ()
 		{
             InitializeComponent ();
-            // butVK.HeightRequest = butVK.Width;
-            // butTG.HeightRequest = butTG.Width;
-            // butOK.HeightRequest = butOK.Width;
             TapGestureRecognizer tapMaps = new TapGestureRecognizer
             {
                 NumberOfTapsRequired = 1
@@ -78,14 +75,20 @@
         
         public async Task OpenBrowser()
         {
-            await Browser.OpenAsync(new Uri("http://"+siteOrg.Text+"/"), BrowserLaunchMode.SystemPreferred);
+            try
+            {
+                await Browser.OpenAsync(new Uri("http://" + siteOrg.Text + "/"), BrowserLaunchMode.SystemPreferred);
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ошибка", "Установите браузер", "ОК"); 
+            }
         }
 
         async Task OpenMapsAsync(Label s)
         {
             try
             {
-
                 switch (s.StyleId)
                 {
                     case "l1":

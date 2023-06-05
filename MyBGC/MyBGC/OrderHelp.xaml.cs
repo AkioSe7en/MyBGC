@@ -62,8 +62,6 @@ namespace MyBGC
             {
                 Subject = $"ЗАКАЗ СПРАВКИ: {FIO.Text} {Group.Text}",
                 Body = $"Я, {FIO.Text} N:{Number.Text} из группы {Group.Text}, хочу заказать справки в кол-во {Count.Text} шт.: \n"
-                    // $"Количество: {Count.Text}. Необходимые справки:\n"
-                    // $"{DateTime.Now:U}",
                 ,To = new List<string> { NeedInfo.srtEmailForEmails },
             };
 

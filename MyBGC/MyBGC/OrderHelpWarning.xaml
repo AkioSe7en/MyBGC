@@ -22,7 +22,7 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <CheckBox Grid.Column="0" x:Name="CheckRule"></CheckBox>
+                <CheckBox Grid.Column="0" x:Name="CheckRule" Color="DodgerBlue"></CheckBox>
                 <Label Grid.Column="1" x:Name="CheckRuleLabel" Text="Нажимая на этот флажок я подтверждаю ознакомленность с правилами получения справки и соглашаюсь с политикой конфиденциальности и обработки персональных данных."></Label>
             </Grid>
             

@@ -22,8 +22,14 @@
         <ShellContent x:Name="News" Title="Новости" ContentTemplate="{DataTemplate pages:News}"/>
     </FlyoutItem>
 
-    <FlyoutItem Title="Приемная компания">
-        <ShellContent x:Name="Company" Title="Приемная компания" ContentTemplate="{DataTemplate pages:Company}"/>
+    <FlyoutItem Title="Абитуриенту">
+       <Tab Title="Приемная комиссия">
+        <ShellContent x:Name="Commmision" Title="Приемная комиссия" ContentTemplate="{DataTemplate pages:Comission}"/>
+        </Tab>
+        
+        <Tab Title="Приемная кампания">
+        <ShellContent x:Name="Company" Title="Приемная кампания" ContentTemplate="{DataTemplate pages:Company}"/>
+        </Tab>
     </FlyoutItem>
 
     <FlyoutItem Title="Специальности">

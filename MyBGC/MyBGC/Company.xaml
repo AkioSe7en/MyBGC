@@ -2,12 +2,128 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyBGC.Company"
-             Title="Приемная компания">
+             Title="Приемная кампания">
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles/styles.css"/>
+    </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Company"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <ScrollView>
+        <StackLayout Margin="20">
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Количество поданных заявлений:"/>
+                        <Span x:Name="Doc1" Text="очное отделение" TextDecorations="Underline"/>
+                        <Span Text=" / "/>
+                        <Span x:Name="Doc2" Text="заочное отделение" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                       <Span x:Name="Doc3" Text="Рейтинг поступающих" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span x:Name="Doc4" Text="Перечень основных профессиональных образовательных программ среднего профессионального образования и профессионального обучения, по которым осуществляется прием в Колледж в 2023/24 учебном году с указанием требований к уровню образования" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Объем и структура приема: "/>
+                        <Span x:Name="Doc5" Text="бюджет" TextDecorations="Underline"/>
+                        <Span Text=" / "/>
+                        <Span x:Name="Doc6" Text="по договорам" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span x:Name="Doc7" Text="Перечень документов необходимых для поступления" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span x:Name="Doc8" Text="Порядок подачи документов в электронном виде" TextDecorations="Underline"/>
+                </FormattedString>
+            </Label.FormattedText>
+            </Label>
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span x:Name="Doc9" Text="Вступительные испытания" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span x:Name="Doc10" Text="Особенности проведения вступительных испытаний для лиц с огр. возможностями" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span x:Name="Doc11" Text="Условия приема на обучение по договорам об оказании платных образовательных услуг" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span x:Name="Doc12" Text="Форма договора об оказании платных образовательных услуг" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Расчет стоимости обучения в 2023-2024 году: "/>
+                        <Span x:Name="Doc13" Text="очное отделение" TextDecorations="Underline"/>
+                        <Span Text=" / "/>
+                        <Span x:Name="Doc14" Text="заочное отделение" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span x:Name="Doc15" Text="Форма договора о целевом обучении" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span x:Name="Doc16" Text="Информация по заселению в общежития колледжа" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

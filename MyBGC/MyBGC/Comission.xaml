@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyBGC.Comission">
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles/styles.css"/>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="20">
+                <Image Aspect="AspectFill" Source="https://i.imgur.com/xmHzIzu.png"/>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Адрес: " />
+                            <Span Text="659305, Алтайский край, г. Бийск, пер. В.Мартьянова, д. 42 (1 корпус)"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="corp1"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+                <Label Text="Режим работы: с 9-00 до 16-00, в субботу с 9-00 до 13-00, выходной — воскресенье."/>
+                
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Адрес электронной почты для обращения и подачи заявлений в электронном виде: " />
+                            <Span Text="priembgc@bgtc.su"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="email"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+                <Label Text="Тел. приемной комиссии: 8(3854)436215, сот. 89619928173">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Тел. приемной комиссии: " />
+                            <Span Text="8 (3854) 436215"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="phoneDom"/>
+                            <Span Text=". Сотовый: " />
+                            <Span Text="89619928173"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="phoneSot"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Группа ВК: " />
+                            <Span Text="https://vk.com/join.bgtc"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline"
+                                  x:Name="VK"/>
+                            <Span Text=". Информация для поступления, новости, рейтинги, количество поданных заявлений, обратная связь. ПРИСОЕДИНЯЙСЯ!"/>
+                            </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label Text="Ответственный секретарь приемной комиссии: Вейберт Андрей Яковлевич."/>
+                
+                <Label/>
+                <Label Text="Прием в колледж по образовательным программам проводится на первый курс по личному заявлению граждан:"/>
+                <Label Text="   1. на очную форму получения образования:"></Label>
+                <Label Margin="20,0,0,0" Text="по программам подготовки специалистов среднего звена, по программам подготовки квалифицированных рабочих, служащих осуществляется с 15 июня 2023г. до 15 августа 2023г.;"></Label>
+                <Label Margin="20,0,0,0" Text="на специальность 54.02.01 «Дизайн (по отраслям)» – до 10 августа 2023г.;"></Label>
+                <Label Margin="20,0,0,0" Text="по программам профессиональной подготовки по профессиям рабочих, должностям служащих из числа лиц с ограниченными возможностями здоровья (с различными формами умственной отсталости) осуществляется с 15 июня 2023 г. до 15 августа 2023г."></Label>
+                <Label Text="   2. на заочную форму – с 15 июня 2023г. до 15 августа 2023г."></Label>
+                <Label Text="При наличии свободных мест в Колледже, оставшихся после зачисления, в том числе по результатам вступительных испытаний, прием документов продлевается до 25 ноября текущего года."></Label>
+                
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span FontSize="Medium" Text="Способы подачи документов: &#x0a;" FontAttributes="Bold" />
+                            <Span Text="В 2023 году поступающие вправе направить/представить в Колледж заявление о приеме, а также необходимые документы одним из следующих способов:"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                            <Label Text="— лично в образовательную организацию;"/>
+                            <Label Text="— через операторов почтовой связи общего пользования заказным письмом с уведомлением о вручении, по адресу:&#x0a; приемная комиссия, КГБПОУ «Бийский государственный колледж», пер. В. Мартьянова, 42, г. Бийск, 659305;"/>
+                            <Label FontSize="Micro" Text="При направлении документов по почте поступающий к заявлению о приеме прилагает ксерокопии документов, удостоверяющих его личность и гражданство, СНИЛС, ксерокопию документа об образовании и (или) документа об образовании и о квалификации, а также иные документы, предусмотренные Правилами приема."/>
+                            <Label Text="— через «Единый портал государственных и муниципальных услуг» Госуслуги;"/>
+                            <Label Text="— в электронном виде. При подаче документов по электронной почте, документов, удостоверяющих личность и гражданство, СНИЛС, копии документов об образовании и (или) документа об образовании и о квалификации предоставляются в сканированном виде."/>
+                
+                <Label/>
+                <Label FontSize="Medium" Text="Нормативные документы:" FontAttributes="Bold"></Label>
+                <Label x:Name="NormDoc1" TextDecorations="Underline" Text="	• Устав колледжа"/>
+                <Label x:Name="NormDoc2" TextDecorations="Underline" Text="	• Лицензия на осуществление образовательной деятельности"/>
+                <Label x:Name="NormDoc3" TextDecorations="Underline" Text="	• Свидетельство о государственной аккредитации"/>
+                <Label x:Name="NormDoc4" TextDecorations="Underline" Text="	• Положение о приемной комиссии"/>
+                <Label x:Name="NormDoc5" TextDecorations="Underline" Text="	• Положение о предметной экзаменационной комиссии"/>
+                <Label x:Name="NormDoc6" TextDecorations="Underline" Text="	• Правила подачи и рассмотрения апелляций"/>
+                <Label x:Name="NormDoc7" TextDecorations="Underline" Text="	• Правила приема в 2023 году"/>
+                <Label/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

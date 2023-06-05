@@ -4,10 +4,31 @@
              x:Class="MyBGC.RecordDPO"
              Title="Запись на ДПО и ПО">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Дополнительное обучение"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            
+            <Label Grid.Row="0" Text="ФИО полностью"/>
+            <Entry Grid.Row="1" x:Name="FIO" ReturnType="Next"  Placeholder="ФИО полностью"></Entry>
+            <Label Grid.Row="2" Text="Номер телефона"/>
+            <Entry Grid.Row="3" x:Name="Number" ReturnType="Next" MaxLength="12" Placeholder="Введите номер телефона" Keyboard="Telephone"></Entry>
+           <Label Grid.Row="4" Text="Выберите уровень вашего текущего образования"/>
+            <Picker Grid.Row="5" x:Name="EduPicker" Title="Уровень текущего образования" FontSize="Small" ></Picker>
+            <Label Grid.Row="6" Text="Выберите интересующую вас образовательную программу"/>
+            <Picker Grid.Row="7" x:Name="InterestPicker" Title="Интересующая программа ДПО" FontSize="Small"></Picker>
+            <Button Grid.Row="8" x:Name="Send" Clicked="Send_OnClicked" VerticalOptions="EndAndExpand" Text="Отправить по email" BackgroundColor="#08387F" TextColor="White"></Button>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
