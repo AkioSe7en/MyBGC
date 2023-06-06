@@ -12,7 +12,7 @@
 
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout x:Name="stack">
+            <StackLayout x:Name="stack" Margin="20">
                 <Image HeightRequest="100" Source="https://i.imgur.com/i0DFAVG.jpg" />
                 <Label Text='Краевое государственное бюджетное профессиональное образовательное учреждение «Бийский государственный колледж» - многопрофильная образовательная организация, удовлетворяющая запросам регионального рынка труда в профессиональных кадрах.'/>
                 <Label Text='Бийский государственный колледж по праву считается образовательной организацией, вносящей весомый вклад в социально-экономическое развитие Алтайского края.'/>
@@ -27,7 +27,7 @@
                 <Label Text="Адрес сайта учредителя в сети «Интернет»:  http://www.educaltai.ru"/>
                 <Label Text="Адрес электронной почты учредителя: info@22edu.ru"/>
                 <Label/>
-                <Label Text="Фактическое нахождение учебных корпусов образовательной организации:"/>
+                <Label FontAttributes="Bold" Text="Фактическое нахождение учебных корпусов образовательной организации:"/>
                 <Label x:Name="l1">
                     <Label.FormattedText>
                         <FormattedString>
@@ -90,7 +90,7 @@
                 <Label/>
                 
                 
-                <Label Text="Контактные данные:"/>
+                <Label FontAttributes="Bold" Text="Контактные данные:"/>
                 <Label x:Name="PhoneOrg">
                     <Label.FormattedText>
                         <FormattedString>

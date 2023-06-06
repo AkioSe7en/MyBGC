@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CyxdLrjv8a/ppX/5Rz9oiauOXVQ2wzW9Xa/qRtC+A95UkN/fphxDyvsaDs8MfZZxFEn/5NLPemrl+gtlHLh9SA==",
+  "dgSpecHash": "yukH8RLcSDtqXf9NmriOsp7gMuyLBiJv3VQ9fiUYZ6h/tkjATDnaTi8LDh4NFS7tDbgs4evwaDofgd0ktIr+0g==",
   "success": true,
   "projectFilePath": "C:\\Users\\akios\\Desktop\\Учеба\\Диплом\\MyBGC\\MyBGC\\MyBGC.iOS\\MyBGC.iOS.csproj",
   "expectedPackageFiles": [
@@ -59,8 +59,6 @@
     "C:\\Users\\akios\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\akios\\.nuget\\packages\\tdlib\\1.8.12\\tdlib.1.8.12.nupkg.sha512",
-    "C:\\Users\\akios\\.nuget\\packages\\tdlib.api\\1.8.12\\tdlib.api.1.8.12.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

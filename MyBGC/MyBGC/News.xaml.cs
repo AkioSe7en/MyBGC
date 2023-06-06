@@ -14,7 +14,7 @@
             try
             {
                 var feed = await FeedReader.ReadAsync("https://rss.app/feeds/02bfsW31UPrZPeSh.xml");
-
+                
                 foreach (FeedItem item in feed.Items)
                 {
                     StackLayout back = new StackLayout

@@ -3,11 +3,347 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyBGC.Professions"
              Title="Специальности">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles/styles.css"/>
+    </ContentPage.Resources>
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Prof"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+
+                <!-- Специальность 1 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+            <StackLayout x:Name="Prof1">
+                <Label Text="38.02.01" HorizontalTextAlignment="Center"></Label>
+                <Label HorizontalTextAlignment="Center" Text="ЭКОНОМИКА И БУХГАЛТЕРСКИЙ УЧЕТ (ПО ОТРАСЛЯМ)"/>
+                <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2023/05/direktor-340x255.jpg"></Image>
+                
+                <Label Text="Квалификация – бухгалтер"></Label>
+                <Label Text="ЭКОНОМИКА И БУХГАЛТЕРСКИЙ УЧЕТ. ЮРИСПРУДЕНЦИЯ. ТОВАРОВЕДЕНИЕ."></Label>
+                <Label Text="На базе: 9 и 11 классов"></Label>
+                <Label BackgroundColor="Teal" TextColor="White"  Text="Срок обучения: 2 года 10 месяцев"></Label>
+                <Label Text="Начало: 1 сентября 2023 г."></Label>
+            </StackLayout>
+            </Frame>
+                <!-- конец Специальность 1 -->
+
+                <!-- Специальность 2 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof2">
+                        <Label Text="18.02.07" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ТЕХНОЛОГИЯ ПРОИЗВОДСТВА И ПЕРЕРАБОТКИ ПЛАСТИЧЕСКИХ МАСС И ЭЛАСТОМЕРОВ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2023/05/3f670763861139bf2201e7bc224257d4_l-1-340x255.jpg"></Image>
+                        
+                        <Label Text="Квалификация – техник-технолог"></Label>
+                        <Label Text="На базе: 9 и 11 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                        </StackLayout>
+                </Frame>
+                <!-- конец Специальность 2 -->
+
+                <!-- Специальность 3 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof3">
+                        <Label Text="08.01.29" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="МАСТЕР ПО РЕМОНТУ И ОБСЛУЖИВАНИЮ ИНЖЕНЕРНЫХ СИСТЕМ ЖИЛИЩНО-КОММУНАЛЬНОГО ХОЗЯЙСТВА"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/mzhk-e1607945532475.jpg"></Image>
+
+                        <Label Text="Квалификация – мастер инженерных систем жилищно-коммунального хозяйства"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 1 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 3 -->
+
+                <!-- Специальность 4 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof4">
+                        <Label Text="08.01.28" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="МАСТЕР ОТДЕЛОЧНЫХ СТРОИТЕЛЬНЫХ И ДЕКОРАТИВНЫХ РАБОТ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/master-otdeli-stroit-rab-300x225.jpg"></Image>
+
+                        <Label Text="Квалификация – Мастер отделочных строительных работ"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 1 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 4 -->
+
+                <!-- Специальность 5 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof5">
+                        <Label Text="08.02.01" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="СТРОИТЕЛЬСТВО И ЭКСПЛУАТАЦИЯ ЗДАНИЙ И СООРУЖЕНИЙ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/07/unnamed-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – техник"></Label>
+                        <Label Text="На базе: 9 и 11 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 5 -->
+
+                <!-- Специальность 6 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof6">
+                        <Label Text="08.02.13" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="МОНТАЖ И ЭКСПЛУАТАЦИЯ ВНУТРЕННИХ САНТЕХНИЧЕСКИХ УСТРОЙСТВ, КОНДИЦИОНИРОВАНИЯ ВОЗДУХА И ВЕНТИЛЯЦИИ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/santeh-ustr-e1607945347673.jpg"></Image>
+
+                        <Label Text="Квалификация – техник"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 2 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 6 -->
+
+                <!-- Специальность 7 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof7">
+                        <Label Text="08.02.08" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="МОНТАЖ И ЭКСПЛУАТАЦИЯ ОБОРУДОВАНИЯ И СИСТЕМ ГАЗОСНАБЖЕНИЯ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/81-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – техник"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 7 -->
+
+                <!-- Специальность 8 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout  x:Name="Prof8">
+                        <Label Text="09.02.07" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ИНФОРМАЦИОННЫЕ СИСТЕМЫ И ПРОГРАММИРОВАНИЕ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/is-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – специалист по информационным системам"></Label>
+                        <Label Text="На базе: 9 и 11 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 8 -->
+
+                <!-- Специальность 9 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof9">
+                        <Label Text="11.02.17" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="РАЗРАБОТКА ЭЛЕКТРОННЫХ УСТРОЙСТВ И СИСТЕМ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/best-online-bachelors-electrical-engineering-hero-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – техник"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 2 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 9 -->
+
+                <!-- Специальность 10 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof10">
+                        <Label Text="13.02.11" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ТЕХНИЧЕСКАЯ ЭКСПЛУАТАЦИЯ И ОБСЛУЖИВАНИЕ ЭЛЕКТРИЧЕСКОГО И ЭЛЕКТРОМЕХАНИЧЕСКОГО ОБОРУДОВАНИЯ (ПО ОТРАСЛЯМ)"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/electric-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – техник"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 10 -->
+
+                <!-- Специальность 11 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof11">
+                        <Label Text="15.02.16" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ТЕХНОЛОГИЯ МАШИНОСТРОЕНИЯ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/drill-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – техник-технолог"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 11 -->
+
+                <!-- Специальность 12 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof12">
+                        <Label Text="15.02.12" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="МОНТАЖ, ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ И РЕМОНТ ПРОМЫШЛЕННОГО ОБОРУДОВАНИЯ (ПО ОТРАСЛЯМ)"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/install-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – техник-механик"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 12 -->
+
+                <!-- Специальность 13 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout  x:Name="Prof13">
+                        <Label Text="19.02.11" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ТЕХНОЛОГИЯ ПРОДУКТОВ ПИТАНИЯ ИЗ РАСТИТЕЛЬНОГО СЫРЬЯ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/photograin-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – техник-технолог"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 13 -->
+
+                <!-- Специальность 14 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof14">
+                        <Label Text="19727" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ШТУКАТУР"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/12/how-to-become-a-plasterer-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – штукатур"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 1 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 14 -->
+
+                <!-- Специальность 15 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof15">
+                        <Label Text="23.01.17" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="МАСТЕР ПО РЕМОНТУ И ОБСЛУЖИВАНИЮ АВТОМОБИЛЯ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/pexels-340x255.jpeg"></Image>
+
+                        <Label Text="Квалификация – слесарь по ремонту автомобилей, водитель автомобиля."></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 2 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 15 -->
+
+                <!-- Специальность 16 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof16">
+                        <Label Text="23.02.07" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ И РЕМОНТ ДВИГАТЕЛЕЙ, СИСТЕМ И АГРЕГАТОВ АВТОМОБИЛЕЙ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/avt-300x225.jpg"></Image>
+
+                        <Label Text="Квалификация – Специалист"></Label>
+                        <Label Text="На базе: 9 и 11 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 16 -->
+
+                <!-- Специальность 17 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof17">
+                        <Label Text="35.01.28" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="МАСТЕР СТОЛЯРНОГО И МЕБЕЛЬНОГО ПРОИЗВОДСТВА"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/vs_67050_12_1-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – мастер"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 1 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 17 -->
+
+                <!-- Специальность 18 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof18">
+                        <Label Text="35.02.03" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ТЕХНОЛОГИЯ ДЕРЕВООБРАБОТКИ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/worker-holding-wood-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – техник-технолог"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 18 -->
+
+                <!-- Специальность 19 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof19">
+                        <Label Text="35.02.16" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ЭКСПЛУАТАЦИЯ И РЕМОНТ СЕЛЬСКОХОЗЯЙСТВЕННОЕ ТЕХНИКИ И ОБОРУДОВАНИЯ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/empty-field--340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – техник-механик"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 19 -->
+
+                <!-- Специальность 20 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof20">
+                        <Label Text="38.02.05" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ТОВАРОВЕДЕНИЕ И ЭКСПЕРТИЗА КАЧЕСТВА ПОТРЕБИТЕЛЬСКИХ ТОВАРОВ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/young-asia-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – товаровед-эксперт"></Label>
+                        <Label Text="На базе: 9 и 11 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 2 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 20 -->
+
+                <!-- Специальность 21 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof21">
+                        <Label Text="40.02.01" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ПРАВО И ОРГАНИЗАЦИЯ СОЦИАЛЬНОГО ОБЕСПЕЧЕНИЯ"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2020/10/close-up-of-workers-with-briefcases_1098-3096-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация – юрист"></Label>
+                        <Label Text="На базе: 9 и 11 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 2 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 21 -->
+
+                <!-- Специальность 22 -->
+                <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
+                    <StackLayout x:Name="Prof22">
+                        <Label Text="54.02.01" HorizontalTextAlignment="Center"></Label>
+                        <Label HorizontalTextAlignment="Center" Text="ДИЗАЙН (ПО ОТРАСЛЯМ)"/>
+                        <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2015/08/dizajner-2-340x255.jpg"></Image>
+
+                        <Label Text="Квалификация - дизайнер"></Label>
+                        <Label Text="На базе: 9 классов"></Label>
+                        <Label BackgroundColor="Teal" TextColor="White" Text="Срок обучения: 3 года 10 месяцев"></Label>
+                        <Label Text="Начало обучения: 1 сентября 2023 г."></Label>
+                    </StackLayout>
+                </Frame>
+                <!-- конец Специальность 22 -->
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

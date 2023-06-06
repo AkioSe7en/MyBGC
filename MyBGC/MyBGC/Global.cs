@@ -9,3 +9,4 @@ global using Xamarin.Forms;
 global using Xamarin.Forms.Xaml;
 global using CodeHollow.FeedReader;
 global using Color = Xamarin.Forms.Color;
+global using System.IO;

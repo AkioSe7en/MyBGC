@@ -11,7 +11,7 @@
     <PackageIcon>logo_front.png</PackageIcon>
     <RepositoryUrl>https://github.com/AkioSe7en/MyBGC</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <LangVersion>11</LangVersion>
+    <LangVersion>10</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -25,6 +25,8 @@
 
   <ItemGroup>
     <EmbeddedResource Remove="Main - Копировать.xaml" />
+    <None Remove="Assets\ProfessionPages\ProfessionHTML\Prof1.html" />
+    <EmbeddedResource Include="Assets\ProfessionPages\ProfessionHTML\Prof1.html" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,7 +44,6 @@
     <PackageReference Include="CodeHollow.FeedReader" Version="1.2.6" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
-    <PackageReference Include="TDLib" Version="1.8.12" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>

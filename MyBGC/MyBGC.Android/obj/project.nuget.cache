@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YCkN//x6PMOTx2HeAxHhXOhIPsQNDjHdHsez0BMHxwk1ySKPwb/8azTie9T/Rc59SeovIQoe4k/nt4fFI689VQ==",
+  "dgSpecHash": "Vg5QjnVm1+D1+6QW+2Vi5MtYiaV8mpSntQ1eyvQ59eg1kCmpRwkw2hRHVKN97//hkS5WlxiVyH0YnqFc1s+2fg==",
   "success": true,
   "projectFilePath": "C:\\Users\\akios\\Desktop\\Учеба\\Диплом\\MyBGC\\MyBGC\\MyBGC.Android\\MyBGC.Android.csproj",
   "expectedPackageFiles": [
@@ -60,8 +60,6 @@
     "C:\\Users\\akios\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\akios\\.nuget\\packages\\tdlib\\1.8.12\\tdlib.1.8.12.nupkg.sha512",
-    "C:\\Users\\akios\\.nuget\\packages\\tdlib.api\\1.8.12\\tdlib.api.1.8.12.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\akios\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",

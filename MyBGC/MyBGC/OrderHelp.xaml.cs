@@ -1,6 +1,4 @@
-﻿using TdLib;
-
-namespace MyBGC
+﻿namespace MyBGC
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class OrderHelp : ContentPage

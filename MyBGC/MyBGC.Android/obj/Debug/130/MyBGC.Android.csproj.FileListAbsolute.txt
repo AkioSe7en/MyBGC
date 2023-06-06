@@ -137,8 +137,6 @@ C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.Android\obj\Deb
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.Android\obj\Debug\130\android\assets\System.Xml.Linq.pdb
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.Android\obj\Debug\130\android\assets\System.Xml.pdb
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.Android\obj\Debug\130\android\assets\System.Xml.XDocument.dll
-C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.Android\obj\Debug\130\android\assets\TdLib.Api.dll
-C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.Android\obj\Debug\130\android\assets\TdLib.dll
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.Android\obj\Debug\130\android\assets\Xamarin.AndroidX.Activity.dll
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.Android\obj\Debug\130\android\assets\Xamarin.AndroidX.Activity.pdb
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.Android\obj\Debug\130\android\assets\Xamarin.AndroidX.Annotation.dll
