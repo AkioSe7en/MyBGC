@@ -3,30 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyBGC.OrderHelp"
              Title="Заказ справки">
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles/styles.css"/>
+    </ContentPage.Resources>
     <ContentPage.Content>
       <ScrollView>
-        <Grid Margin="20">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            
-            <Label Grid.Row="0" Text="ФИО полностью"/>
-            <Entry Grid.Row="1" x:Name="FIO" ReturnType="Next"  Placeholder="ФИО полностью"></Entry>
+          <StackLayout Margin="15,15,15,0">
+          <Label Grid.Row="0" Text="ФИО полностью"/>
+            <Entry Grid.Row="1" x:Name="FIO" ReturnType="Next" Placeholder="ФИО полностью"></Entry>
             <Label Grid.Row="2" Text="Группа"/>
             <Entry Grid.Row="3" x:Name="Group" ReturnType="Next"  Placeholder="Группа в формате колледжа"></Entry>
             <Label Grid.Row="4" Text="Количество справок"/>
@@ -52,13 +36,13 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
                 <CheckBox x:Name="Check1" Grid.Column="0" Grid.Row="0" Color="DodgerBlue"/>
-                <Label x:Name="Check1Label" Grid.Column="1" Grid.Row="0" Text="Пенсионный фонд" HorizontalTextAlignment="Start"/>
+                <Label x:Name="Check1Label" Grid.Column="1" Grid.Row="0" VerticalOptions="CenterAndExpand" Text="Пенсионный фонд" HorizontalTextAlignment="Start"/>
                 <CheckBox x:Name="Check2" Grid.Column="2" Grid.Row="0" Color="DodgerBlue"/>
-                <Label x:Name="Check2Label" Grid.Column="1" Grid.Row="1" Text="Военкомат" HorizontalTextAlignment="Start"/>
+                <Label x:Name="Check2Label" Grid.Column="1" Grid.Row="1" VerticalOptions="CenterAndExpand" Text="Военкомат" HorizontalTextAlignment="Start"/>
                 <CheckBox x:Name="Check3" Grid.Column="0" Grid.Row="1" CheckedChanged="CheckBoxVoenkom_OnCheckedChanged" Color="DodgerBlue"/>
-                <Label x:Name="Check3Label" Grid.Column="3" Grid.Row="0" Text="По месту требования" HorizontalTextAlignment="Start"/>
+                <Label x:Name="Check3Label" Grid.Column="3" Grid.Row="0" VerticalOptions="CenterAndExpand" Text="По месту требования" HorizontalTextAlignment="Start"/>
                 <CheckBox x:Name="Check4" Grid.Column="2" Grid.Row="1" CheckedChanged="CheckBoxStipend_OnCheckedChanged" Color="DodgerBlue"/>
-                <Label x:Name="Check4Label" Grid.Column="3" Grid.Row="1" Text="О факте выплаты стипендии" HorizontalTextAlignment="Start"/>
+                <Label x:Name="Check4Label" Grid.Column="3" Grid.Row="1" VerticalOptions="CenterAndExpand" Text="О факте выплаты стипендии" HorizontalTextAlignment="Start"/>
             </Grid>
 
             <Entry Grid.Row="8" x:Name="VoenkomEntry" Placeholder="Район военкомата" MaxLength="30" IsVisible="False"></Entry>
@@ -67,8 +51,8 @@
             <Label Grid.Row="10" Text="Номер телефона"/>
             <Entry Grid.Row="11" x:Name="Number" ReturnType="Next"  Placeholder="Введите номер телефона" Keyboard="Telephone"></Entry>
            
-            <Button Grid.Row="12" x:Name="Send" Clicked="Send_OnClicked" VerticalOptions="EndAndExpand" Text="Отправить по email" BackgroundColor="#08387F" TextColor="White"></Button>
-        </Grid>
+            <Button Grid.Row="12" x:Name="Send" Clicked="Send_OnClicked" VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" Text="Отправить по email" BackgroundColor="#08387F" TextColor="White"></Button>
+          </StackLayout>
       </ScrollView>
     </ContentPage.Content>
 </ContentPage>

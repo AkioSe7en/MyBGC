@@ -3,6 +3,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyBGC.OrderHelpWarning">
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles/styles.css"/>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout Margin="20">
             <Label>

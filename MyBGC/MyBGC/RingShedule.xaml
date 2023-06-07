@@ -4,14 +4,18 @@
              x:Class="MyBGC.RingShedule"
              Title="Расписание звонков"
              >
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles/styles.css"/>
+    </ContentPage.Resources>
+    
     <ContentPage.Content>
         <StackLayout>
-          <Grid Margin="20" >
+          <Grid Margin="10" ColumnSpacing="0">
               <Grid.ColumnDefinitions>
                   <ColumnDefinition Width="Auto" />
-                  <ColumnDefinition Width="*" />
-                  <ColumnDefinition Width="auto" />
-                  <ColumnDefinition Width="*" />
+                  <ColumnDefinition Width="Auto" />
+                  <ColumnDefinition Width="Auto" />
+                  <ColumnDefinition Width="Auto" />
               </Grid.ColumnDefinitions>
               <Grid.RowDefinitions>
                   <RowDefinition Height="Auto" />
@@ -41,8 +45,9 @@
               <Label Grid.Column="0" Grid.Row="9" Text="5 пара"/>
               <Label Grid.Column="0" Grid.Row="11" Text="6 пара"/>
 
+
               <Label Grid.Column="1" Grid.Row="1" Text="08:00 - 08:45"/>
-               <Label Grid.Column="1" Grid.Row="2" Text="08:50 - 09:35"/>
+              <Label Grid.Column="1" Grid.Row="2" Text="08:50 - 09:35"/>
               <Label Grid.Column="1" Grid.Row="3" Text="09:45 - 10:30"/>
               <Label Grid.Column="1" Grid.Row="4" Text="10:35 - 11:20"/>
               <Label Grid.Column="1" Grid.Row="5" Text="11:45 - 12:30"/>

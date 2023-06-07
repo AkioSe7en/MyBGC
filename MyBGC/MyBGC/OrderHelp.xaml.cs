@@ -6,6 +6,34 @@
 		public OrderHelp ()
 		{
 			InitializeComponent ();
+            TapGestureRecognizer tapCheck1 = new TapGestureRecognizer();
+            tapCheck1.Tapped += (s, e) =>
+            {
+                Check1.IsChecked = !Check1.IsChecked;
+            };
+            Check1Label.GestureRecognizers.Add(tapCheck1);
+            
+            TapGestureRecognizer tapCheck2 = new TapGestureRecognizer();
+            tapCheck2.Tapped += (s, e) =>
+            {
+                Check3.IsChecked = !Check3.IsChecked;
+            };
+            Check2Label.GestureRecognizers.Add(tapCheck2);
+            
+            TapGestureRecognizer tapCheck3 = new TapGestureRecognizer();
+            tapCheck3.Tapped += (s, e) =>
+            {
+                Check2.IsChecked = !Check2.IsChecked;
+            };
+            Check3Label.GestureRecognizers.Add(tapCheck3);
+            
+            TapGestureRecognizer tapCheck4 = new TapGestureRecognizer();
+            tapCheck4.Tapped += (s, e) =>
+            {
+                Check4.IsChecked = !Check4.IsChecked;
+            };
+            Check4Label.GestureRecognizers.Add(tapCheck4);
+            
 		}
 
         private void CheckBoxVoenkom_OnCheckedChanged(object sender, CheckedChangedEventArgs e)
@@ -35,10 +63,6 @@
         private void Count_OnTextChanged(object sender, TextChangedEventArgs e)
         {
            var numberSTR = ((Entry)sender).Text;
-           // if (numberSTR.EndsWith(","))
-           //  {
-           //      numberSTR=numberSTR.TrimEnd(',');
-           //  }
 
            numberSTR = numberSTR.Replace(",", "");
            var checkNum= int.TryParse(numberSTR, out int number);

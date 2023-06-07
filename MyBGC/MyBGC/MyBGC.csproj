@@ -12,6 +12,7 @@
     <RepositoryUrl>https://github.com/AkioSe7en/MyBGC</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <LangVersion>10</LangVersion>
+    <Title>MyBGC</Title>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

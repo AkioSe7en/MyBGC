@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyBGC.Appeals"
              Title="Обращения граждан">
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles/styles.css"/>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <Grid Margin="20">
             <Grid.ColumnDefinitions>
