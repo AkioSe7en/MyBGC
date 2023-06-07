@@ -12,8 +12,10 @@ namespace MyBGC.ProfessionPages;
 [XamlCompilation(XamlCompilationOptions.Compile)]
 public partial class Prof1 : ContentPage
 {
-    public Prof1()
+    public Prof1(string NumProf)
     {
         InitializeComponent();
+        WebView.Source = $"http://q9609419.beget.tech/Prof{NumProf}.html";
+        
     }
 }
