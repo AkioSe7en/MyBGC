@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.UWP\bin\x64\Debug\MyBGC.UWP.exe">
       <PackagePath>entrypoint\MyBGC.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\akios\.nuget\packages\codehollow.feedreader\1.2.6\lib\netstandard1.3\CodeHollow.FeedReader.dll">
+      <PackagePath>CodeHollow.FeedReader.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\akios\.nuget\packages\newtonsoft.json\13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>

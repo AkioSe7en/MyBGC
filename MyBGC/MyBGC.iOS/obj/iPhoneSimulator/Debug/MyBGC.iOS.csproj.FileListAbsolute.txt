@@ -70,3 +70,10 @@ C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.iOS\obj\iPhoneS
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.iOS\obj\iPhoneSimulator\Debug\MyBGC.iOS.csproj.CopyComplete
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.iOS\obj\iPhoneSimulator\Debug\MyBGC.iOS.exe
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.iOS\obj\iPhoneSimulator\Debug\MyBGC.iOS.pdb
+C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.iOS\bin\iPhoneSimulator\Debug\CodeHollow.FeedReader.dll
+C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.iOS\bin\iPhoneSimulator\Debug\System.IO.Compression.dll
+C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.iOS\bin\iPhoneSimulator\Debug\System.Net.Http.dll
+C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.iOS\bin\iPhoneSimulator\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.X509Certificates.dll

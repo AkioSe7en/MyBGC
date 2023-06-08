@@ -126,16 +126,16 @@
                     </Label.FormattedText>
                 </Label>
                 
-                <Grid>
+                <Grid Margin="0,0,0, 20">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="{Binding }"></ColumnDefinition>
-                        <ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     
-                    <ImageButton Grid.Column="0" HeightRequest="100" WidthRequest="100" x:Name="butVK" BackgroundColor="White" Aspect="AspectFit" Clicked="ButVK_OnClicked" Source="https://pngicon.ru/file/uploads/vk.png"></ImageButton>
-                    <ImageButton Grid.Column="1" HeightRequest="100" WidthRequest="100" x:Name="butTG" BackgroundColor="White" Aspect="AspectFit" Clicked="ButTG_OnClicked" Source="https://img.icons8.com/color/512/telegram-app--v1.png"></ImageButton>
-                    <ImageButton Grid.Column="2" HeightRequest="100" WidthRequest="100" x:Name="butOK" BackgroundColor="White" Aspect="AspectFit" Clicked="ButOK_OnClicked" Source="https://papik.pro/uploads/posts/2021-11/thumbs/1636125739_6-papik-pro-p-logotip-odnoklassniki-foto-7.png"></ImageButton>
+                    <ImageButton Grid.Column="0" HeightRequest="50" WidthRequest="50" x:Name="butVK" BackgroundColor="White" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" Clicked="ButVK_OnClicked" Source="https://pngicon.ru/file/uploads/vk.png"></ImageButton>
+                    <ImageButton Grid.Column="1" HeightRequest="50" WidthRequest="50" x:Name="butTG" BackgroundColor="White" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" Clicked="ButTG_OnClicked" Source="https://img.icons8.com/color/512/telegram-app--v1.png"></ImageButton>
+                    <ImageButton Grid.Column="2" HeightRequest="50" WidthRequest="50" x:Name="butOK" BackgroundColor="White" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" Clicked="ButOK_OnClicked" Source="https://papik.pro/uploads/posts/2021-11/thumbs/1636125739_6-papik-pro-p-logotip-odnoklassniki-foto-7.png"></ImageButton>
                 </Grid>
                 
             </StackLayout>

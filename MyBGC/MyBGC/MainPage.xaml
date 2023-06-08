@@ -9,7 +9,6 @@
 
     <Shell.FlyoutHeader>
         <StackLayout BackgroundColor="White" Padding="10">
-            <Label Text="Мой БГК" FontSize="20" HorizontalTextAlignment="Center" TextColor="DodgerBlue"/>
             <Image HeightRequest="100" Source="https://i.imgur.com/i0DFAVG.jpg" />
         </StackLayout>
     </Shell.FlyoutHeader>

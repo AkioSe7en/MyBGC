@@ -68,3 +68,4 @@ C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.UWP\bin\x64\Deb
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.UWP\bin\x64\Debug\e_sqlite3.dll
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.UWP\bin\x64\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.UWP\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\akios\Desktop\Учеба\Диплом\MyBGC\MyBGC\MyBGC.UWP\bin\x64\Debug\CodeHollow.FeedReader.dll
