@@ -14,9 +14,8 @@
     <LangVersion>10</LangVersion>
     <Title>MyBGC</Title>
     <Version>1.0.1</Version>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>AkioSe7en.keystore</AssemblyOriginatorKeyFile>
-    <PublicSign>true</PublicSign>
+    <AssemblyOriginatorKeyFile>AkioSe7en.keyInfo</AssemblyOriginatorKeyFile>
+    <PublicSign>false</PublicSign>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
