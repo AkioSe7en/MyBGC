@@ -16,7 +16,7 @@
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
           "C:\\Users\\akios\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,7 +92,7 @@
       }
     },
     "C:\\Users\\akios\\Desktop\\Учеба\\Диплом\\MyBGC\\MyBGC\\MyBGC\\MyBGC.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\akios\\Desktop\\Учеба\\Диплом\\MyBGC\\MyBGC\\MyBGC\\MyBGC.csproj",
         "projectName": "MyBGC",
