@@ -8,7 +8,7 @@
     <Company>BGC</Company>
     <Description>Мобильное приложение Бийского государственного колледжа</Description>
     <PackageProjectUrl>https://www.bgtc.su/</PackageProjectUrl>
-    <PackageIcon>logo_front.png</PackageIcon>
+    <PackageIcon>ic_launcher_foreground.png</PackageIcon>
     <RepositoryUrl>https://github.com/AkioSe7en/MyBGC</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <LangVersion>10</LangVersion>
@@ -33,9 +33,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\MyBGC.Android\Resources\drawable\logo_front.png">
+    <None Include="..\MyBGC.Android\Resources\drawable\logo_front.png" />
+    <None Update="ic_launcher_foreground.png">
       <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
+      <PackagePath></PackagePath>
     </None>
   </ItemGroup>
 
