@@ -16,14 +16,14 @@
             TapGestureRecognizer tapCheck2 = new TapGestureRecognizer();
             tapCheck2.Tapped += (s, e) =>
             {
-                Check3.IsChecked = !Check3.IsChecked;
+                Check2.IsChecked = !Check2.IsChecked;
             };
             Check2Label.GestureRecognizers.Add(tapCheck2);
             
             TapGestureRecognizer tapCheck3 = new TapGestureRecognizer();
             tapCheck3.Tapped += (s, e) =>
             {
-                Check2.IsChecked = !Check2.IsChecked;
+                Check3.IsChecked = !Check3.IsChecked;
             };
             Check3Label.GestureRecognizers.Add(tapCheck3);
             
@@ -38,26 +38,12 @@
 
         private void CheckBoxVoenkom_OnCheckedChanged(object sender, CheckedChangedEventArgs e)
         {
-            if (((CheckBox)sender).IsChecked)
-            {
-                VoenkomEntry.IsVisible=true;
-            }
-            else
-            {
-                VoenkomEntry.IsVisible = false;
-            }
+            VoenkomEntry.IsVisible = ((CheckBox)sender).IsChecked;
         }
 
         private void CheckBoxStipend_OnCheckedChanged(object sender, CheckedChangedEventArgs e)
         {
-            if (((CheckBox)sender).IsChecked)
-            {
-                StipendEntry.IsVisible = true;
-            }
-            else
-            {
-                StipendEntry.IsVisible = false;
-            }
+            StipendEntry.IsVisible = ((CheckBox)sender).IsChecked;
         }
 
         private void Count_OnTextChanged(object sender, TextChangedEventArgs e)

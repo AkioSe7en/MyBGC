@@ -27,7 +27,7 @@
             <Entry Grid.Row="1" x:Name="FIO" ReturnType="Next"  Placeholder="ФИО полностью"></Entry>
             <Label Grid.Row="2" Text="Номер телефона"/>
             <Entry Grid.Row="3" x:Name="Number" ReturnType="Next" MaxLength="12" Placeholder="Введите номер телефона" Keyboard="Telephone"></Entry>
-           <Label Grid.Row="4" Text="Выберите уровень вашего текущего образования"/>
+            <Label Grid.Row="4" Text="Выберите уровень вашего текущего образования"/>
             <Picker Grid.Row="5" x:Name="EduPicker" Title="Уровень текущего образования" FontSize="Small" ></Picker>
             <Label Grid.Row="6" Text="Выберите интересующую вас образовательную программу"/>
             <Picker Grid.Row="7" x:Name="InterestPicker" Title="Интересующая программа ДПО" FontSize="Small"></Picker>

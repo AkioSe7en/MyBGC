@@ -25,6 +25,10 @@
 
   <ItemGroup>
     <Compile Remove="Main - Копировать.xaml.cs" />
+    <Compile Update="ProfPage.xaml.cs">
+      <DependentUpon>ProfPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -36,7 +40,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\MyBGC.Android\Resources\drawable\logo_front.png" />
     <None Update="ic_launcher_foreground.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -79,5 +82,9 @@
     <EmbeddedResource Update="RingShedule.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ProfessionPages\" />
   </ItemGroup>
 </Project>

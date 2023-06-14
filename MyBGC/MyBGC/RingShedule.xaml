@@ -80,28 +80,9 @@
               <Label Grid.Column="3" Grid.Row="11" Text="16:45 - 17:30"/>
               <Label Grid.Column="3" Grid.Row="12" Text="17:35 - 18:20"/>
 
-                <Label Grid.Column="0" Grid.Row="13" Grid.ColumnSpan="4" x:Name="SpringSummer">
-                  <Label.FormattedText>
-                      <FormattedString>
-                            <Span Text="Расписание звонков  с 01.09.2022 по 30.06.2023 г."
-                                TextColor="Blue"
-                                TextDecorations="Underline"
-                                x:Name="springSummer"/>
-                      </FormattedString>
-                  </Label.FormattedText>
-              </Label>
-
-                <Label Grid.Column="0" Grid.Row="14" Grid.ColumnSpan="4" x:Name="Distant">
-                  <Label.FormattedText>
-                      <FormattedString>
-                            <Span Text="Расписание звонков для проведения учебных занятий с применением электронного обучения и дистанционных образовательных технологий"
-                                TextColor="Blue"
-                                TextDecorations="Underline"
-                                x:Name="distant"/>
-                      </FormattedString>
-                  </Label.FormattedText>
-              </Label>
-            </Grid>
+                <Label Grid.Column="0" Grid.Row="13" Text="Расписание звонков с 01.09.2022 по 30.06.2023 г." Grid.ColumnSpan="4" x:Name="SpringSummer" TextColor="Blue" TextDecorations="Underline"/>
+                <Label Grid.Column="0" Grid.Row="14" Text="Расписание звонков для проведения учебных занятий с применением электронного обучения и дистанционных образовательных технологий" Grid.ColumnSpan="4" x:Name="Distant"  TextColor="Blue" TextDecorations="Underline"/>
+          </Grid>
             
         </StackLayout>
     </ContentPage.Content>

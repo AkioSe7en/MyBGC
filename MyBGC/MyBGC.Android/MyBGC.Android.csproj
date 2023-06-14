@@ -43,9 +43,12 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <AndroidKeyStore>true</AndroidKeyStore>
     <AndroidSigningKeyStore>C:\Users\akios\AppData\Local\Xamarin\Mono for Android\Keystore\AkioSe7en\AkioSe7en.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>Tumoxa121</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>AkioSe7en</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>Tumoxa121</AndroidSigningKeyPass>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
+    <DebugSymbols>false</DebugSymbols>
     <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>

@@ -14,16 +14,15 @@
 
                 <!-- Специальность 1 -->
                 <Frame Margin="10" BorderColor="Black" BackgroundColor="#d5ecf5">
-            <StackLayout x:Name="Prof1">
-                <Label Text="38.02.01" HorizontalTextAlignment="Center"></Label>
+                <StackLayout x:Name="Prof1">
+                <Label Text="38.02.01" HorizontalTextAlignment="Center"/>
                 <Label HorizontalTextAlignment="Center" Text="ЭКОНОМИКА И БУХГАЛТЕРСКИЙ УЧЕТ (ПО ОТРАСЛЯМ)"/>
-                <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2023/05/direktor-340x255.jpg"></Image>
+                <Image Aspect="AspectFit" HeightRequest="150" Source="https://www.bgtc.su/wp-content/uploads/2023/05/direktor-340x255.jpg"/>
                 
-                <Label Text="Квалификация – бухгалтер"></Label>
-                <Label Text="ЭКОНОМИКА И БУХГАЛТЕРСКИЙ УЧЕТ. ЮРИСПРУДЕНЦИЯ. ТОВАРОВЕДЕНИЕ."></Label>
-                <Label Text="На базе: 9 и 11 классов"></Label>
-                <Label BackgroundColor="Teal" TextColor="White"  Text="Срок обучения: 2 года 10 месяцев"></Label>
-                <Label Text="Начало: 1 сентября 2023 г."></Label>
+                <Label Text="Квалификация – бухгалтер"/>
+                <Label Text="На базе: 9 и 11 классов"/>
+                <Label BackgroundColor="Teal" TextColor="White"  Text="Срок обучения: 2 года 10 месяцев"/>
+                <Label Text="Начало: 1 сентября 2023 г."/>
             </StackLayout>
             </Frame>
                 <!-- конец Специальность 1 -->

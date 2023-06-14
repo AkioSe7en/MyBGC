@@ -29,7 +29,7 @@
                 <Label Grid.Column="1" x:Name="CheckRuleLabel" Text="Нажимая на этот флажок я подтверждаю ознакомленность с правилами получения справки и соглашаюсь с политикой конфиденциальности и обработки персональных данных."></Label>
             </Grid>
             
-            <Button x:Name="Ok" Text="Я соглашаюсь" Clicked="Ok_OnClicked"></Button>
+            <Button x:Name="Ok" Text="Я соглашаюсь" Clicked="Ok_OnClicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

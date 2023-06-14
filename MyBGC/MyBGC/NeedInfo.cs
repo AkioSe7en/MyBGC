@@ -3,6 +3,5 @@
 public static class NeedInfo
 {
     public static string srtEmailForEmails = "mybgc_akio@mail.ru";
-    public interface IBaseUrl { string Get(); }
-    
+    public static string RSSurl = "https://rss.app/feeds/CexxPqLSBLOJbTAc.xml";
 }

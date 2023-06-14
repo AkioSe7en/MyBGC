@@ -19,12 +19,23 @@
                        $"{DateTime.Now:U}",
                 To = new List<string> { NeedInfo.srtEmailForEmails },
             };
+            try
+            {
             await Email.ComposeAsync(message);
             Subject.Text = "";
             FIO.Text = "";
             Number.Text = "";
             Address.Text = "";
             Body.Text = "";
+            }
+            catch (FeatureNotSupportedException fbsEx)
+            {
+	            DisplayAlert("Ошибка", "Установите приложение для электронной почты", "ОК");
+            }
+            catch (Exception ex)
+            {
+	            DisplayAlert("Ошибка", "Неизвестная ошибка, попробуйте еще раз", "ОК");
+            }
         }
     }
 }

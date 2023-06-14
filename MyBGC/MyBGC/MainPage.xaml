@@ -4,8 +4,7 @@
              x:Class="MyBGC.MainPage"
              xmlns:pages="clr-namespace:MyBGC;assembly=MyBGC"
              BackgroundColor="DodgerBlue"
-             
-            >
+             >
 
     <Shell.FlyoutHeader>
         <StackLayout BackgroundColor="White" Padding="10">

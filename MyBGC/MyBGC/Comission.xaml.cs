@@ -35,7 +35,7 @@ public partial class Comission : ContentPage
             PhoneDialer.Open("89619928173");
         };
         phoneSot.GestureRecognizers.Add(tapPhoneSot);
-
+        
         TapGestureRecognizer tapVK = new TapGestureRecognizer();
       tapVK.Tapped += (s, e) =>
       {
@@ -79,7 +79,7 @@ public partial class Comission : ContentPage
                     break;
                 
             }
-            //await Browser.OpenAsync(new Uri("https://vk.com/join.bgtc"), BrowserLaunchMode.SystemPreferred);
+        
         }
         catch (Exception ex)
         {

@@ -13,7 +13,7 @@
         {
             try
             {
-                var feed = await FeedReader.ReadAsync("https://rss.app/feeds/02bfsW31UPrZPeSh.xml");
+                var feed = await FeedReader.ReadAsync(NeedInfo.RSSurl);
                 
                 foreach (FeedItem item in feed.Items)
                 {
@@ -28,8 +28,9 @@
                             new RowDefinition { Height = GridLength.Auto }, //title
                             new RowDefinition { Height = GridLength.Auto }, //body
                         }
+                        , Margin = 10
                     };
-                    grid.Margin = 10;
+                    
                     int StartImgSrc = item.Description.IndexOf("img src=") + 9;
                     int EndImgSrc = item.Description.IndexOf("\u0022", StartImgSrc + 1);
                     string SourceImg = item.Description.Substring(StartImgSrc, EndImgSrc - StartImgSrc);
@@ -41,14 +42,6 @@
                         HeightRequest = 200
                     }, 0, 0);
 
-                    int StartDesc = item.Description.IndexOf("<div>", EndImgSrc) + 5;
-                    int EndDesc = item.Description.IndexOf("</div>");
-                    string Desc = item.Description.Substring(StartDesc, EndDesc - StartDesc);
-
-                    Label DescLabel = new Label { };
-                    var z = new FormattedString();
-                    z.Spans.Add(new Span { Text = Desc });
-
                     grid.Children.Add(
                         new Label
                         {
@@ -56,8 +49,17 @@
                             TextColor = Color.Black, HorizontalTextAlignment = TextAlignment.Center,
                             FontAttributes = FontAttributes.Bold
                         }, 0, 1);
+                    
+                    int StartDesc = item.Description.IndexOf("<div>", EndImgSrc) + 5;
+                    int EndDesc = item.Description.IndexOf("</div>");
+                    string DescText = item.Description.Substring(StartDesc, EndDesc - StartDesc);
+ 
+                    var Desc = new FormattedString();
+                    Desc.Spans.Add(new Span { Text = DescText });
 
-                    string dots = Desc.Substring(Desc.Length - 4, 4);
+                   
+
+                    string dots = DescText.Substring(DescText.Length - 4, 4);
 
                     if (dots == "....")
                     {
@@ -71,13 +73,13 @@
                             Command = new Command(async () =>
                                 await Browser.OpenAsync(new Uri(item.Link), BrowserLaunchMode.SystemPreferred))
                         });
-                        z.Spans.Add(span);
+                        Desc.Spans.Add(span);
                     }
 
                     grid.Children.Add(
                         new Label
                         {
-                            FormattedText = z, BackgroundColor = Color.FromHex("daedf4"), Padding = 5,
+                            FormattedText = Desc, BackgroundColor = Color.FromHex("daedf4"), Padding = 5,
                             TextColor = Color.Black
                         }, 0, 2);
 
@@ -88,6 +90,7 @@
                         Text = $"{item.PublishingDate:D}", Margin = new Thickness(0, 0, 15, 15),
                         HorizontalTextAlignment = TextAlignment.End, TextColor = Color.Black
                     });
+                    
                     NewsFeed.Children.Add(back);
                 }
             }

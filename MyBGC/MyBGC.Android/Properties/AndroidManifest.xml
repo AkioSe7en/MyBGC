@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="bgtc.MyBGC" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
-	<application android:label="МойБГК" android:theme="@style/MainTheme" android:usesCleartextTraffic="true" android:icon="@mipmap/icon"></application>
+	<application android:label="МойБГК" android:theme="@style/MainTheme" android:usesCleartextTraffic="true" android:icon="@mipmap/ic_launcher_foreground"></application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>

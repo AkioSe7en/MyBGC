@@ -5,7 +5,7 @@
              Title="Новости">
     <ContentPage.Content>
         
-        <ScrollView x:Name="Page123">
+        <ScrollView>
 <StackLayout x:Name="NewsFeed"></StackLayout>
         </ScrollView>
     </ContentPage.Content>

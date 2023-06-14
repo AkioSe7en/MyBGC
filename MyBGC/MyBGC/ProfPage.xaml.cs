@@ -1,23 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-
-namespace MyBGC.ProfessionPages;
+﻿namespace MyBGC.ProfessionPages;
 
 [XamlCompilation(XamlCompilationOptions.Compile)]
-public partial class Professions : ContentPage
+public partial class ProfPage : ContentPage
 {
-    public Professions(string NumProf)
+    public ProfPage(string NumProf)
     {
         InitializeComponent();
         if (Connectivity.NetworkAccess == NetworkAccess.Internet)
         {
-            WebView.Source = $"http://q9609419.beget.tech/Prof{NumProf}.html";
+            //WebView.Source = $"http://q9609419.beget.tech/Prof{NumProf}.html";
+            WebView.Source = $"http://q9609419.beget.tech/{NumProf}.html";
         }
         else
         {

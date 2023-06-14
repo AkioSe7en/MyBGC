@@ -15,30 +15,19 @@ public partial class OrderHelpWarning : ContentPage
     public OrderHelpWarning()
     {
         InitializeComponent();
-        TapGestureRecognizer tapMaps = new TapGestureRecognizer
-        {
-            NumberOfTapsRequired = 1
-        };
+        TapGestureRecognizer tapMaps = new TapGestureRecognizer();
         tapMaps.Tapped += (s, e) =>
         {
-            OpenMapsAsync();
+            Launcher.OpenAsync("geo:52.517360140738894,85.15646159648895?q=Бийский+государственный+колледж+");
         };
         corp1.GestureRecognizers.Add(tapMaps);
 
-        TapGestureRecognizer tapCheck = new TapGestureRecognizer
-        {
-            NumberOfTapsRequired = 1
-        };
+        TapGestureRecognizer tapCheck = new TapGestureRecognizer();
         tapCheck.Tapped += (s, e) =>
         {
             CheckRule.IsChecked = !CheckRule.IsChecked;
         };
         CheckRuleLabel.GestureRecognizers.Add(tapCheck);
-    }
-
-    async Task OpenMapsAsync()
-    { 
-        await Launcher.OpenAsync("geo:52.517360140738894,85.15646159648895?q=Бийский+государственный+колледж+");
     }
     
     private void Ok_OnClicked(object sender, EventArgs e)

@@ -6,10 +6,7 @@
 		public Main ()
 		{
             InitializeComponent ();
-            TapGestureRecognizer tapMaps = new TapGestureRecognizer
-            {
-                NumberOfTapsRequired = 1
-            };
+            TapGestureRecognizer tapMaps = new TapGestureRecognizer();
             tapMaps.Tapped += (s, e) =>
             {
                 OpenMapsAsync((Label)s);
