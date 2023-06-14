@@ -3,11 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyBGC.ClassShedule"
              Title="Расписание занятий">
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles/styles.css"/>
+    </ContentPage.Resources>
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Расписание занятий"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <ScrollView>
+        <StackLayout Margin="20">
+            <Label Text="Ежедневное расписание занятий" FontAttributes="Bold"/>
+            <Label Text="1 корпус" x:Name="Dcorp1" TextDecorations="Underline"/>
+            <Label Text="2 корпус" x:Name="Dcorp2" TextDecorations="Underline"/>
+            <Label Text="3 корпус" x:Name="Dcorp3" TextDecorations="Underline"/>
+            <Label Text="4 корпус" x:Name="Dcorp4" TextDecorations="Underline"/>
+            <Label/>
+            
+            <Label Text="Недельное расписание на семестр II 2022-2023 учебного года" FontAttributes="Bold"/>
+            <Label Text="1 корпус" x:Name="Wcorp1" TextDecorations="Underline"/>
+            <Label Text="2 корпус" x:Name="Wcorp2" TextDecorations="Underline"/>
+            <Label Text="3 корпус" x:Name="Wcorp3" TextDecorations="Underline"/>
+            <Label Text="4 корпус" x:Name="Wcorp4" TextDecorations="Underline"/>
+            <Label/>
+            
+            <Label Text="Расписание занятий отделений дополнительного образования" FontAttributes="Bold"/>
+            <Label Text="Расписание занятий учебной группы №В-21 «Профессиональная подготовка водителей транспортных средств категории «В»»" x:Name="DPOБ21" TextDecorations="Underline"/>
+            <Label Text="Расписание занятий учебной группы №ТС-11 «Тракторист категории «С»" x:Name="DPOТС11" TextDecorations="Underline"/>
+            <Label Text="Расписание занятий учебной группы МСД-2 «Маляр строительный»" x:Name="DPOМСД2" TextDecorations="Underline"/>
+            <Label Text="Расписание занятий учебной группы Мст-2 «16089 Монтажник санитарно-технических систем и оборудования»" x:Name="DPOМСТ1" TextDecorations="Underline"/>
+            <Label Text="Расписание занятий учебной группы Эл-2 «Электромонтёр по ремонту и обслуживанию электрооборудования»" x:Name="DPOЭЛ2" TextDecorations="Underline"/>
+            <Label Text="Расписание занятий учебной группы Эл-2п «Электромонтёр по ремонту и обслуживанию электрооборудования»" x:Name="DPOЭЛ2П" TextDecorations="Underline"/>
+            <Label Text="Расписание занятий учебной группы Эл-1с «Электромонтёр по ремонту и обслуживанию электрооборудования»" x:Name="DPOЭЛ1с" TextDecorations="Underline"/>
+            
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
