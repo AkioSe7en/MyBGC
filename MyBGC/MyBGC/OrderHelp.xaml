@@ -39,10 +39,10 @@
                 <CheckBox x:Name="Check1" Grid.Column="0" Grid.Row="0" Color="DodgerBlue"/>
                 <Label x:Name="Check1Label" Grid.Column="1" Grid.Row="0" VerticalOptions="CenterAndExpand" Text="Пенсионный фонд" HorizontalTextAlignment="Start"/>
                
-                <CheckBox x:Name="Check2" Grid.Column="0" Grid.Row="1" Color="DodgerBlue"/>
+                <CheckBox x:Name="Check2" Grid.Column="0" Grid.Row="1" CheckedChanged="CheckBoxVoenkom_OnCheckedChanged" Color="DodgerBlue"/>
                 <Label x:Name="Check2Label" Grid.Column="1" Grid.Row="1" VerticalOptions="CenterAndExpand" Text="Военкомат" HorizontalTextAlignment="Start"/>
                
-                <CheckBox x:Name="Check3" Grid.Column="2" Grid.Row="0" CheckedChanged="CheckBoxVoenkom_OnCheckedChanged" Color="DodgerBlue"/>
+                <CheckBox x:Name="Check3" Grid.Column="2" Grid.Row="0" Color="DodgerBlue"/>
                 <Label x:Name="Check3Label" Grid.Column="3" Grid.Row="0" VerticalOptions="CenterAndExpand" Text="По месту требования" HorizontalTextAlignment="Start"/>
                 
                 <CheckBox x:Name="Check4" Grid.Column="2" Grid.Row="1" CheckedChanged="CheckBoxStipend_OnCheckedChanged" Color="DodgerBlue"/>
