@@ -9,7 +9,7 @@
     
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout Margin="20">
+         <StackLayout Margin="20">
             <Label Text="Ежедневное расписание занятий" FontAttributes="Bold"/>
             <Label Text="1 корпус" x:Name="Dcorp1" TextDecorations="Underline"/>
             <Label Text="2 корпус" x:Name="Dcorp2" TextDecorations="Underline"/>

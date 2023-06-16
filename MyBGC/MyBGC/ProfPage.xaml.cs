@@ -8,7 +8,6 @@ public partial class ProfPage : ContentPage
         InitializeComponent();
         if (Connectivity.NetworkAccess == NetworkAccess.Internet)
         {
-            //WebView.Source = $"http://q9609419.beget.tech/Prof{NumProf}.html";
             WebView.Source = $"http://q9609419.beget.tech/{NumProf}.html";
         }
         else

@@ -39,59 +39,5 @@ namespace MyBGC
 			Prof21.GestureRecognizers.Add(tapProf);
 			Prof22.GestureRecognizers.Add(tapProf);
 		}
-
-		void OpenProfession(StackLayout prof)
-		{
-			var ProfNumber = prof.StyleId.Remove(0, 4);
-			Navigation.PushAsync(new ProfessionPages.ProfPage(ProfNumber));
-			/*
-		switch (prof.StyleId)
-		{
-			case "Prof1": Navigation.PushAsync(new ProfessionPages.Professions("1"));
-				break;
-			case "Prof2": Navigation.PushAsync(new ProfessionPages.Professions("2"));
-				break;
-			case "Prof3": Navigation.PushAsync(new ProfessionPages.Professions("3"));
-				break;
-			case "Prof4": Navigation.PushAsync(new ProfessionPages.Professions("4"));
-				break;
-			case "Prof5": Navigation.PushAsync(new ProfessionPages.Professions("5"));
-				break;
-			case "Prof6": Navigation.PushAsync(new ProfessionPages.Professions("6"));
-				break;
-			case "Prof7": Navigation.PushAsync(new ProfessionPages.Professions("7"));
-				break;
-			case "Prof8": Navigation.PushAsync(new ProfessionPages.Professions("8"));
-				break;
-			case "Prof9": Navigation.PushAsync(new ProfessionPages.Professions("9"));
-				break;
-			case "Prof10": Navigation.PushAsync(new ProfessionPages.Professions("10"));
-				break;
-			case "Prof11": Navigation.PushAsync(new ProfessionPages.Professions("11"));
-				break;
-			case "Prof12": Navigation.PushAsync(new ProfessionPages.Professions("12"));
-				break;
-			case "Prof13": Navigation.PushAsync(new ProfessionPages.Professions("13"));
-				break;
-			case "Prof14": Navigation.PushAsync(new ProfessionPages.Professions("14"));
-				break;
-			case "Prof15": Navigation.PushAsync(new ProfessionPages.Professions("15"));
-				break;
-			case "Prof16": Navigation.PushAsync(new ProfessionPages.Professions("16"));
-				break;
-			case "Prof17": Navigation.PushAsync(new ProfessionPages.Professions("17"));
-				break;
-			case "Prof18": Navigation.PushAsync(new ProfessionPages.Professions("18"));
-				break;
-			case "Prof19": Navigation.PushAsync(new ProfessionPages.Professions("19"));
-				break;
-			case "Prof20": Navigation.PushAsync(new ProfessionPages.Professions("20"));
-				break;
-			case "Prof21": Navigation.PushAsync(new ProfessionPages.Professions("21"));
-				break;
-			case "Prof22": Navigation.PushAsync(new ProfessionPages.Professions("22"));
-				break;
-		}*/
-		}
 	}
 }

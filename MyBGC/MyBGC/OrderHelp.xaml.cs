@@ -52,13 +52,13 @@
 
            numberSTR = numberSTR.Replace(",", "");
            var checkNum= int.TryParse(numberSTR, out int number);
-            if (number<1 && checkNum)
+            if (number<Stepper.Minimum && checkNum)
             {
-               numberSTR = "1";
+               numberSTR = Stepper.Minimum.ToString();
             }
-            if (number>10 && checkNum)
+            if (number>Stepper.Maximum && checkNum)
             {
-                numberSTR = "10";
+                numberSTR = Stepper.Maximum.ToString();
             }
 
             ((Entry)sender).Text = numberSTR;

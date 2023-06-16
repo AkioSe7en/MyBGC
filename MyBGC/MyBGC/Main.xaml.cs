@@ -118,17 +118,38 @@
 
         private async void ButVK_OnClicked(object sender, EventArgs e)
         {
-            await Browser.OpenAsync(new Uri("https://vk.com/bgk_official_22"), BrowserLaunchMode.SystemPreferred);
+            try
+            {
+                await Browser.OpenAsync(new Uri("https://vk.com/bgk_official_22"), BrowserLaunchMode.SystemPreferred);
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ошибка", "Установите браузер", "ОК"); 
+            }
         }
 
         private async void ButTG_OnClicked(object sender, EventArgs e)
         {
-            await Browser.OpenAsync(new Uri("https://t.me/bgtc_2022"), BrowserLaunchMode.SystemPreferred);
+            try
+            {
+                await Browser.OpenAsync(new Uri("https://t.me/bgtc_2022"), BrowserLaunchMode.SystemPreferred);
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ошибка", "Установите браузер", "ОК"); 
+            }
         }
 
         private async void ButOK_OnClicked(object sender, EventArgs e)
         {
+            try
+            {
             await Browser.OpenAsync(new Uri("https://ok.ru/group/70000001849098"), BrowserLaunchMode.SystemPreferred);
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("Ошибка", "Установите браузер", "ОК"); 
+        }
         }
     }
 }
