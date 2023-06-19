@@ -46,6 +46,7 @@
     <AndroidSigningStorePass>Tumoxa121</AndroidSigningStorePass>
     <AndroidSigningKeyAlias>AkioSe7en</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>Tumoxa121</AndroidSigningKeyPass>
+    <AndroidSupportedAbis>armeabi-v7a;x86;arm64-v8a;x86_64</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>

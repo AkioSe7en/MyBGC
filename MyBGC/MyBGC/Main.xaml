@@ -11,24 +11,39 @@
     </ContentPage.Resources>
 
     <ContentPage.Content>
-        <ScrollView>
+        <ScrollView x:Name="ScrollView">
             <StackLayout Margin="20">
                 <Image HeightRequest="100" Source="https://i.imgur.com/i0DFAVG.jpg" />
                 <Label Text='Краевое государственное бюджетное профессиональное образовательное учреждение «Бийский государственный колледж» - многопрофильная образовательная организация, удовлетворяющая запросам регионального рынка труда в профессиональных кадрах.'/>
                 <Label Text='Бийский государственный колледж по праву считается образовательной организацией, вносящей весомый вклад в социально-экономическое развитие Алтайского края.'/>
                 <Label Text='В 2016 году он включен в национальный реестр «Ведущие образовательные учреждения России». По итогам Национального конкурса "Лучшие колледжи РФ - 2021" Бийский государственный колледж стал обладателем диплома лауреата, а так же удостоен медали "Лучшие колледжи РФ". Директор колледжа, Елена Валерьевна Метель, стала лауреатом конкурса и награждена Почетной грамотой "Директор года - 2021".'/>
                 <Label Text="Дата создания образовательной организации: 12.08.1959г."/>
-                <Label FontAttributes="Bold" Text="Учредитель образовательной организации:"/>
-                <Label Text="Наименование учредителя: Министерство образования и науки Алтайского края."/>
-                <Label Text="Руководитель учредителя образовательной организации: Светлана Павловна Говорухина."/>
-                <Label Text="Должность:  временно исполняющий обязанности министра образования и науки Алтайского края."/>
-                <Label Text="Юридический адрес учредителя: 656043, Алтайский край, г. Барнаул, ул. Ползунова, д. 36."/>
-                <Label Text="Контактный телефон учредителя: 8(3852) 63-57-26"/>
-                <Label Text="Адрес сайта учредителя в сети «Интернет»:  http://www.educaltai.ru"/>
-                <Label Text="Адрес электронной почты учредителя: info@22edu.ru"/>
-                <Label/>
                 
-                <Label FontAttributes="Bold" Text="Фактическое нахождение учебных корпусов образовательной организации:"/>
+                <CarouselView HeightRequest="200" x:Name="CarouselAllPhotos">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                         <Image HeightRequest="200" Aspect="AspectFit" Source="{Binding Source}"/>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                    <CarouselView.ItemsLayout>
+                        <LinearItemsLayout SnapPointsType="Mandatory" SnapPointsAlignment="Center" Orientation="Horizontal" ItemSpacing="20" />
+                    </CarouselView.ItemsLayout>
+                </CarouselView>
+                
+                <StackLayout x:Name="Uchred">
+                    <Label FontAttributes="Bold" FontSize="18" Text="Учредитель образовательной организации:"/>
+                    <Label Text="Наименование учредителя: Министерство образования и науки Алтайского края."/>
+                    <Label Text="Руководитель учредителя образовательной организации: Светлана Павловна Говорухина."/>
+                    <Label Text="Должность:  временно исполняющий обязанности министра образования и науки Алтайского края."/>
+                    <Label Text="Юридический адрес учредителя: 656043, Алтайский край, г. Барнаул, ул. Ползунова, д. 36."/>
+                    <Label Text="Контактный телефон учредителя: 8(3852) 63-57-26"/>
+                    <Label Text="Адрес сайта учредителя в сети «Интернет»:  http://www.educaltai.ru"/>
+                    <Label Text="Адрес электронной почты учредителя: info@22edu.ru"/>
+                <Label/>
+                </StackLayout>
+                
+                <StackLayout x:Name="Corpusa">
+                <Label FontAttributes="Bold" FontSize="18" Text="Фактическое нахождение учебных корпусов образовательной организации:"/>
                 <Label x:Name="l1">
                     <Label.FormattedText>
                         <FormattedString>
@@ -110,8 +125,11 @@
                 <IndicatorView x:Name="IndicatorView" IndicatorColor="LightGray" SelectedIndicatorColor="Black" VerticalOptions="Center"/>
                 
                 <Label/>
+                </StackLayout>
                 
-                <Label FontAttributes="Bold" Text="Контактные данные:"/>
+               
+                <StackLayout x:Name="Contact">
+                <Label FontAttributes="Bold" FontSize="18" Text="Контактные данные:"/>
                 <Label x:Name="PhoneOrg">
                     <Label.FormattedText>
                         <FormattedString>
@@ -158,7 +176,8 @@
                     <ImageButton Grid.Column="1" HeightRequest="50" WidthRequest="50" x:Name="butTG" BackgroundColor="White" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" Clicked="ButTG_OnClicked" Source="https://img.icons8.com/color/512/telegram-app--v1.png"></ImageButton>
                     <ImageButton Grid.Column="2" HeightRequest="50" WidthRequest="50" x:Name="butOK" BackgroundColor="White" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" Clicked="ButOK_OnClicked" Source="https://papik.pro/uploads/posts/2021-11/thumbs/1636125739_6-papik-pro-p-logotip-odnoklassniki-foto-7.png"></ImageButton>
                 </Grid>
-                
+                </StackLayout>
+               
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

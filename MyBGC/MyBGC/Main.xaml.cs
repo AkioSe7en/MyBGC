@@ -17,8 +17,36 @@
 
             };
             CarouselView.ItemsSource = images;
-            
-            
+            Device.StartTimer(TimeSpan.FromSeconds(8), (Func<bool>)(() =>
+            {
+                CarouselView.Position = (CarouselView.Position + 1) % images.Count;
+                return true;
+            }) );
+
+            List<Image> imagesAllPhotos = new List<Image>
+            { 
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2022/10/lenta4-1060x460.jpg"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2022/09/rov-1060x460.jpg"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2021/07/bezymyannyj-1060x460.png"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2020/12/td-kallazhd-1060x460.png"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2020/06/DSCN1603-1_cr-1-1060x460.png"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2020/12/malyarka-1060x460.png"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2020/12/stu-i-otoplenie-1060x460.png"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2020/12/el-1060x460.png"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2022/10/lenta6-1060x460.jpg"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2022/10/lenta3-1060x460.jpg"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2022/10/lenta1-1060x460.jpg"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2022/10/lenta5-1060x460.jpg"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2022/10/lenta7-1060x460.jpg"},
+                new Image{Source = "https://www.bgtc.su/wp-content/uploads/2022/10/lenta8-1060x460.jpg"},
+            };
+            CarouselAllPhotos.ItemsSource = imagesAllPhotos;
+            Device.StartTimer(TimeSpan.FromSeconds(4), (Func<bool>)(() =>
+            {
+                CarouselAllPhotos.Position = (CarouselAllPhotos.Position + 1) % images.Count;
+                return true;
+            }) );
+
             TapGestureRecognizer tapMaps = new TapGestureRecognizer();
             tapMaps.Tapped += (s, e) =>
             {

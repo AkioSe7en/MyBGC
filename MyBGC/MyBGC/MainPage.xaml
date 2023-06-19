@@ -6,6 +6,17 @@
              BackgroundColor="DodgerBlue"
              >
 
+    <Shell.Resources>
+        <Style x:Key="BaseStyle" 
+               TargetType="Element">
+            <Setter Property="Shell.TitleColor" 
+                    Value="White" />
+            <Setter Property="Shell.UnselectedColor" 
+                    Value="LightGray" />
+        </Style>
+
+    </Shell.Resources>
+    
     <Shell.FlyoutHeader>
         <StackLayout BackgroundColor="White" Padding="10">
             <Image HeightRequest="100" Source="https://i.imgur.com/i0DFAVG.jpg" />
@@ -21,12 +32,12 @@
     </FlyoutItem>
 
     <FlyoutItem Title="Абитуриенту">
-       <Tab Title="Приемная комиссия">
-        <ShellContent x:Name="Commmision" Title="Приемная комиссия" ContentTemplate="{DataTemplate pages:Comission}"/>
+       <Tab  Title="Приемная комиссия">
+        <ShellContent  Style="{StaticResource BaseStyle}" x:Name="Commmision" Title="Приемная комиссия" ContentTemplate="{DataTemplate pages:Comission}"/>
         </Tab>
         
         <Tab Title="Приемная кампания">
-        <ShellContent x:Name="Company" Title="Приемная кампания" ContentTemplate="{DataTemplate pages:Company}"/>
+        <ShellContent  Style="{StaticResource BaseStyle}" x:Name="Company" Title="Приемная кампания" ContentTemplate="{DataTemplate pages:Company}"/>
         </Tab>
     </FlyoutItem>
 
@@ -36,10 +47,10 @@
 
     <FlyoutItem Title="Расписание занятий/звонков">
         <Tab Title="Занятия">
-        <ShellContent  x:Name="Class" Title="Расписания занятий" ContentTemplate="{DataTemplate pages:ClassShedule}"/>
+        <ShellContent  x:Name="Class" Style="{StaticResource BaseStyle}" Title="Расписания занятий" ContentTemplate="{DataTemplate pages:ClassShedule}"/>
         </Tab>
         <Tab Title="Звонки">
-            <ShellContent x:Name="Ring" Title="Расписание звонков" ContentTemplate="{DataTemplate pages:RingShedule}"/>
+            <ShellContent x:Name="Ring" Style="{StaticResource BaseStyle}" Title="Расписание звонков" ContentTemplate="{DataTemplate pages:RingShedule}"/>
         </Tab>
     </FlyoutItem>
 
