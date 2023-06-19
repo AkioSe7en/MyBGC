@@ -27,6 +27,7 @@
                 <Label Text="Адрес сайта учредителя в сети «Интернет»:  http://www.educaltai.ru"/>
                 <Label Text="Адрес электронной почты учредителя: info@22edu.ru"/>
                 <Label/>
+                
                 <Label FontAttributes="Bold" Text="Фактическое нахождение учебных корпусов образовательной организации:"/>
                 <Label x:Name="l1">
                     <Label.FormattedText>
@@ -89,6 +90,26 @@
                 </Label>
                 <Label/>
                 
+                <CarouselView HeightRequest="330" x:Name="CarouselView" IndicatorView="IndicatorView" PeekAreaInsets="20" Loop="False">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame x:Name="Frame" HasShadow="True" BorderColor="Black" BackgroundColor="#d5ecf5" Padding="10">
+                                <StackLayout x:Name="Stack">
+                                   <Label  HorizontalTextAlignment="Center" Text="{Binding Title}"/>
+                                    <Image HeightRequest="180" Aspect="AspectFit" Source="{Binding ImageURL}"/>
+                                    <Label Text="{Binding Desc}"/>
+                                </StackLayout>
+                            </Frame>
+                           
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                    <CarouselView.ItemsLayout>
+                        <LinearItemsLayout SnapPointsType="MandatorySingle" SnapPointsAlignment="Center" Orientation="Horizontal" ItemSpacing="20" />
+                    </CarouselView.ItemsLayout>
+                </CarouselView>
+                <IndicatorView x:Name="IndicatorView" IndicatorColor="LightGray" SelectedIndicatorColor="Black" VerticalOptions="Center"/>
+                
+                <Label/>
                 
                 <Label FontAttributes="Bold" Text="Контактные данные:"/>
                 <Label x:Name="PhoneOrg">

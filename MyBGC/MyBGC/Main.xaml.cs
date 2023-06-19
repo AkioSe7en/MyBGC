@@ -6,6 +6,19 @@
 		public Main ()
 		{
             InitializeComponent ();
+
+            List<CarouselViewMain> images = new List<CarouselViewMain>()
+            {
+                new CarouselViewMain{Title = "Корпус 1\n", Desc = "659305, Алтайский край, г. Бийск, пер. В.Мартьянова, д. 42", ImageURL = "https://www.bgtc.su/wp-content/uploads/2020/07/p1110425.jpg"},
+                new CarouselViewMain{Title = "Корпус 2\n", Desc = "659315, Алтайский край, г. Бийск, ул. 8 марта, д. 16", ImageURL = "https://www.bgtc.su/wp-content/uploads/2020/08/apk5.jpeg"},
+                new CarouselViewMain{Title = "Корпус 3\n", Desc = "659300, Алтайский край, г. Бийск, пер. Мопровский, д. 27", ImageURL = "https://www.bgtc.su/wp-content/uploads/2020/08/fasad-300x225.jpg"},
+                new CarouselViewMain{Title = "Корпус 4\n", Desc = "659316, Алтайский край, г. Бийск ул. Социалистическая, д. 30", ImageURL = "https://www.bgtc.su/wp-content/uploads/2020/07/4-300x169.jpg"},
+                new CarouselViewMain{Title = "Центр аграрного\n образования", Desc = "659363, Алтайский край, с. Первомайское,  ул. Октябрьская, д. 22з", ImageURL = "https://www.bgtc.su/wp-content/uploads/2020/07/5-300x225.jpg"},
+
+            };
+            CarouselView.ItemsSource = images;
+            
+            
             TapGestureRecognizer tapMaps = new TapGestureRecognizer();
             tapMaps.Tapped += (s, e) =>
             {
@@ -151,5 +164,6 @@
             DisplayAlert("Ошибка", "Установите браузер", "ОК"); 
         }
         }
+        
     }
 }
