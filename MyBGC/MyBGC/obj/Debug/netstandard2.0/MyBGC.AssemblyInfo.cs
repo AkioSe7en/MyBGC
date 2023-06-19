@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BGC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Мобильное приложение Бийского государственного колледжа")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyBGC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyBGC")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.1")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/AkioSe7en/MyBGC")]
 
 // Создано классом WriteCodeFragment MSBuild.

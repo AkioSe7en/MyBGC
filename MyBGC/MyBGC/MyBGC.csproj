@@ -13,9 +13,11 @@
     <RepositoryType>git</RepositoryType>
     <LangVersion>10</LangVersion>
     <Title>MyBGC</Title>
-    <Version>1.0.1</Version>
+    <Version>1.1</Version>
     <AssemblyOriginatorKeyFile>AkioSe7en.keyInfo</AssemblyOriginatorKeyFile>
     <PublicSign>false</PublicSign>
+    <AssemblyVersion>1.1</AssemblyVersion>
+    <FileVersion>1.1</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

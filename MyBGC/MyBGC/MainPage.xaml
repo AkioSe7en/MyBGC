@@ -55,4 +55,10 @@
         <ShellContent x:Name="Appeals" Title="Обращение граждан" ContentTemplate="{DataTemplate pages:Appeals}"/>
     </FlyoutItem>
 
+    <Shell.FlyoutFooter>
+        <StackLayout>
+            <Button Clicked="MenuItem_OnClicked" Text="О приложении"></Button>
+        </StackLayout>
+        
+    </Shell.FlyoutFooter>
 </Shell>

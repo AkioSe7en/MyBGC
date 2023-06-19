@@ -6,5 +6,11 @@
         {
             InitializeComponent();
         }
+
+        private void MenuItem_OnClicked(object sender, EventArgs e)
+        {
+            DisplayAlert("О разработчике", "Разрабочик: Осокин Тимофей Сергеевич.\n" +
+                                           "Заказчик: Бийский государственный колледж\n\n","Ок");
+        }
     }
 }

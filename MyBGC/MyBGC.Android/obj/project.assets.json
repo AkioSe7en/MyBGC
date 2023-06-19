@@ -2429,7 +2429,7 @@
           "buildTransitive/monoandroid50/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "MyBGC/1.0.1": {
+      "MyBGC/1.1.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -6920,7 +6920,7 @@
         "xamarin.google.guava.listenablefuture.nuspec"
       ]
     },
-    "MyBGC/1.0.1": {
+    "MyBGC/1.1.0": {
       "type": "project",
       "path": "../MyBGC/MyBGC.csproj",
       "msbuildProject": "../MyBGC/MyBGC.csproj"
@@ -6929,7 +6929,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v13.0": [
       "CodeHollow.FeedReader >= 1.2.6",
-      "MyBGC >= 1.0.1",
+      "MyBGC >= 1.1.0",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
