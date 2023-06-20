@@ -92,7 +92,7 @@
                 message.Body += $"{Check4Label.Text}, за {StipendEntry.Text} мес.\n";
             }
             
-            message.Body += $"{DateTime.Now:U}";
+            message.Body += $"{DateTime.Now.AddHours(7) :U}";
             try
             {
                 await Email.ComposeAsync(message);

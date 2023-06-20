@@ -43,7 +43,7 @@
             CarouselAllPhotos.ItemsSource = imagesAllPhotos;
             Device.StartTimer(TimeSpan.FromSeconds(4), (Func<bool>)(() =>
             {
-                CarouselAllPhotos.Position = (CarouselAllPhotos.Position + 1) % images.Count;
+                CarouselAllPhotos.Position = (CarouselAllPhotos.Position + 1) % imagesAllPhotos.Count;
                 return true;
             }) );
 

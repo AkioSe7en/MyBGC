@@ -16,7 +16,7 @@
                 Body = $"{FIO.Text}, {Number.Text} \n" +
                        $"Адрес: {Address.Text}\n" +
                        $"{Body.Text}\n" +
-                       $"{DateTime.Now:U}",
+                       $"{DateTime.Now.AddHours(7) :U}",
                 To = new List<string> { NeedInfo.srtEmailForEmails },
             };
             try

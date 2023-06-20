@@ -64,7 +64,7 @@
 				Body = $"Я, {FIO.Text} N:{Number.Text}, хочу записаться на ДПО.\n" +
 				       $"Текущее образование: {EduPicker.SelectedItem}\n" +
 				       $"Хочу получить образование: {InterestPicker.SelectedItem}\n" +
-				       $"{DateTime.Now:U}"
+				       $"{DateTime.Now.AddHours(7) :U}"
 				,To = new List<string> { NeedInfo.srtEmailForEmails },
 			};
 			try
